@@ -1,0 +1,274 @@
+@import "tailwindcss";
+
+/* -----------------------------
+   Base theme variables
+------------------------------ */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* -----------------------------
+   Global body styling
+------------------------------ */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -----------------------------
+   SeqViz compatibility styles
+   (CRITICAL for rendering)
+------------------------------ */
+
+/* Root container */
+.seqviz {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* SVG should be visible and not collapsed */
+.seqviz svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Text (bases, labels, annotations) */
+.seqviz text {
+  fill: #1a1a1a !important;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+/* Annotation blocks (primers, features) */
+.seqviz .annotation,
+.seqviz .feature {
+  fill-opacity: 0.7;
+}
+
+/* Forward primer (default blue-ish) */
+.seqviz .annotation.forward,
+.seqviz .feature.forward {
+  fill: #3b82f6; /* Tailwind blue-500 */
+}
+
+/* Reverse primer (default orange-ish) */
+.seqviz .annotation.reverse,
+.seqviz .feature.reverse {
+  fill: #f97316; /* Tailwind orange-500 */
+}
+
+/* Overlaps / Gibson homology (future use) */
+.seqviz .annotation.overlap,
+.seqviz .feature.overlap {
+  fill: #22c55e; /* Tailwind green-500 */
+}
+
+/* Axis / baseline */
+.seqviz .axis,
+.seqviz .baseline {
+  stroke: currentColor;
+  stroke-width: 1;
+  opacity: 0.5;
+}
+
+/* Prevent invisible text in dark mode */
+@media (prefers-color-scheme: dark) {
+  .seqviz text {
+    fill: #e5e7eb; /* Tailwind gray-200 */
+  }
+}
+/* SeqViz (la-vz-*) – ensure it can size and draw */
+.la-vz-seqviz,
+.la-vz-viewer-container,
+.la-vz-viewer-event-router {
+  width: 100%;
+}
+
+/* Make sure scroller can actually show content */
+.la-vz-linear-scroller {
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Match linear viewer background to circular viewer */
+.la-vz-viewer-linear,
+.la-vz-linear-scroller,
+.la-vz-linear-scroller > div {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Ensure circular and linear viewers have consistent styling */
+.la-vz-viewer-circular,
+.la-vz-viewer-linear {
+  background: transparent !important;
+}
+
+/* SVG backgrounds should be transparent */
+.la-vz-seqviz svg,
+.la-vz-viewer-circular svg,
+.la-vz-viewer-linear svg {
+  background: transparent !important;
+}
+
+/* Make nucleotides and numbers much darker */
+.la-vz-linear-scroller svg text,
+.la-vz-linear-scroller text,
+.la-vz-seqviz text,
+.la-vz-viewer-linear text,
+.la-vz-viewer-circular text {
+  fill: #1a1a1a !important;
+  color: #1a1a1a !important;
+}
+
+/* Ensure axis tick labels and numbers are dark */
+.la-vz-seqviz .la-vz-index text,
+.la-vz-seqviz tspan {
+  fill: #1a1a1a !important;
+}
+/* --- Placeholder vertical marquee (2-line swap) --- */
+.placeholder-marquee {
+  position: relative;
+  height: 1.25rem; /* matches text-sm line height */
+  overflow: hidden;
+}
+
+.placeholder-marquee-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: transform 420ms ease, opacity 420ms ease;
+}
+
+/* visible line */
+.placeholder-in {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* leaving line (slides up) */
+.placeholder-out-up {
+  transform: translateY(-12px);
+  opacity: 0;
+}
+
+/* entering line (starts below, slides up into place) */
+.placeholder-in-from-down {
+  transform: translateY(12px);
+  opacity: 0;
+}
+
+/* --- Chat textarea styling --- */
+.chat-textarea {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(219, 239, 231, 0.4) transparent;
+}
+
+.chat-textarea::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(219, 239, 231, 0.4);
+  border-radius: 3px;
+}
+
+/* --- DNA sequence inline display (horizontal scroll) --- */
+.dna-sequence-inline {
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.8em;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+  vertical-align: middle;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(219, 239, 231, 0.4) transparent;
+}
+
+.dna-sequence-inline::-webkit-scrollbar {
+  height: 4px;
+}
+
+.dna-sequence-inline::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dna-sequence-inline::-webkit-scrollbar-thumb {
+  background-color: rgba(219, 239, 231, 0.4);
+  border-radius: 2px;
+}
+
+
+
+/* -----------------------------
+   Splicify design tokens
+------------------------------ */
+:root {
+  --forest-900: #083823;
+  --forest-800: #0b4a30;
+  --forest-700: #0f5536;
+  --forest-600: #176b46;
+  --forest-500: #2a8a5f;
+  --mint-200: #dbefe7;
+  --mint-100: #e9f5ee;
+  --mint-50:  #f2f9f5;
+  --cream-100: #f6f1e6;
+  --cream-50: #fbf7ee;
+  --brass-600: #b4891f;
+  --brass-500: #d8a93a;
+  --brass-400: #e6bf55;
+  --ink-900: #0a1a12;
+  --ink-700: #1f3227;
+  --ink-500: #50665a;
+  --ink-300: #8a9c93;
+
+  --font-display: 'Bricolage Grotesque', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono-splicify: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+
+  --shadow-sm: 0 1px 2px rgba(8, 56, 35, 0.06), 0 1px 1px rgba(8, 56, 35, 0.04);
+  --shadow-md: 0 10px 28px -12px rgba(8, 56, 35, 0.22), 0 2px 6px rgba(8, 56, 35, 0.06);
+  --shadow-lg: 0 30px 60px -30px rgba(8, 56, 35, 0.35);
+}
+
+.splicify-mono { font-family: var(--font-mono-splicify); }
+.splicify-display { font-family: var(--font-display); letter-spacing: -0.025em; }
+.splicify-body { font-family: var(--font-body); }

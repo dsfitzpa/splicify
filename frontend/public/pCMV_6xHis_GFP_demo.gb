@@ -1,0 +1,44 @@
+LOCUS       pCMV_6xHis_GFP          1365 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  Demo plasmid: CMV - Kozak - 6xHis - GFP - linker.
+ACCESSION   pCMV_6xHis_GFP
+VERSION     pCMV_6xHis_GFP
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     promoter        1..600
+                     /label="CMV promoter"
+     misc_feature    601..609
+                     /label="Kozak"
+     CDS             610..627
+                     /label="6xHis tag"
+     CDS             628..1344
+                     /label="GFP"
+     misc_feature    1345..1365
+                     /label="linker"
+ORIGIN
+        1 gacattgatt attgactagt tattaatagt aatcaattac ggggtcatta gttcatagcc
+       61 catatatgga gttccgcgtt acataactta cggtaaatgg cccgcctggc tgaccgccca
+      121 acgacccccg cccattgacg tcaataatga cgtatgttcc catagtaacg ccaataggga
+      181 ctttccattg acgtcaatgg gtggagtatt tacggtaaac tgcccacttg gcagtacatc
+      241 aagtgtatca tatgccaagt acgcccccta ttgacgtcaa tgacggtaaa tggcccgcct
+      301 ggcattatgc ccagtacatg accttatggg actttcctac ttggcagtac atctacgtat
+      361 tagtcatcgc tattaccatg gtgatgcggt tttggcagta catcaatggg cgtggatagc
+      421 ggtttgactc acggggattt ccaagtctcc accccattga cgtcaatggg agtttgtttt
+      481 ggcaccaaaa tcaacgggac tttccaaaat gtcgtaacaa ctccgcccca ttgacgcaaa
+      541 tgggcggtag gcgtgtacgg tgggaggtct atataagcag agctcgttta gtgaaccgtc
+      601 gccaccatgc atcatcatca tcatcatatg agtaaaggag aagaactatt taccggagtt
+      661 gtaccaattt tagttgaatt agatggagat gttaatggac ataaattttc tgtaagtgga
+      721 gaaggtgaag gagatgcaac ttatggtaaa ttaacattaa aatttatttg tacaactggt
+      781 aaattaccag ttccatggcc aacattagtt actacatttt cttatggtgt tcaatgtttt
+      841 tcaagatatt cagatcatat gaaacaacat gattttttca aaagtgcaat gccagaaggt
+      901 tatgttcaag aaagaacaat ttttttcaaa gatgatggta attacaaaac aagagcagaa
+      961 gttaaattcg aaggagatac tttagttaat agaattgaat taaaaggaat tgattttaaa
+     1021 gaagatggaa atattttaag tcataaattg gaatataatt ataactctca taatgtttat
+     1081 attatggctg ataaacaaaa aaatggaatt aaagttaatt tcaaaattag acataatatt
+     1141 gaagacggtt ctgttcaatt agctgatcat tatcaacaaa atactccaat tggtgatggt
+     1201 ccagttttgt taccagataa tcattattta tctacacaaa gtgcattatc taaagaccca
+     1261 aatgaaaaaa gagatcacat ggttttatta gaatttgtta ctgctgctgg aattacacat
+     1321 ggaatggatg aattatacaa aggatccggc ggctctggag gaagc
+//

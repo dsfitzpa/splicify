@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.vercel/
+
+# Data — externalised via $SPLICIFY_DATA_DIR
+backend/splicify_api/feature_db_data/
+backend/splicify_api/Module_Library_gb/
+!backend/splicify_api/feature_db_data/_test_fixtures/
+!backend/splicify_api/Module_Library_gb/.gitkeep
+data/cache/
+*.gb.cache
+
+# Run artefacts (kept on VPS only)
+agent/runs/
+backend/runs/
+*.log
+
+# Secrets (must never be committed)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Backups (PR #2 sweep — should never reappear)
+*.bak
+*.bak_*
+*.backup
+*.backup_*
+*.BEFORE_*
+*.pre_*
+*.broken
+*.PRE_*
+
+# Raw annotation extraction outputs (large; ship via Zenodo)
+backend/splicify_api/annotator/feature_db/*.ndjson
+backend/splicify_api/annotator/feature_db/*.fasta
+backend/splicify_api/annotator/feature_db/*.fna
+backend/splicify_api/annotator/feature_db/*.faa
+backend/splicify_api/annotator/feature_db/schema/*.json

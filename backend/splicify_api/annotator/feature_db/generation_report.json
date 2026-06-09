@@ -1,0 +1,46 @@
+{
+  "generated": "2026-03-20T12:41:22.483557+00:00",
+  "score": -28,
+  "grade": "failed",
+  "release_readiness": "not_ready",
+  "qc_overall": "FAIL",
+  "coverage": {
+    "total_canonical_features": 19697,
+    "included": 3092,
+    "included_categories": 21,
+    "seed_features_detected": 3,
+    "snapgene_kb_records": 160,
+    "snapgene_kb_mapped": 156,
+    "snapgene_kb_curated": 17
+  },
+  "clustering": {
+    "total_clusters": 38390,
+    "high_cv_clusters": 0,
+    "multimodal_clusters": 0,
+    "boundary_drift_features": 126
+  },
+  "output_integrity": {
+    "anchor_fasta_records": 405,
+    "anchor_meta_rows": 405,
+    "motif_fasta_records": 68,
+    "motif_meta_rows": 68,
+    "anchor_fasta_meta_match": true,
+    "motif_fasta_meta_match": true
+  },
+  "qa": {
+    "check_status_counts": {
+      "PASS": 3,
+      "SKIP": 1,
+      "WARN": 2,
+      "FAIL": 1
+    }
+  },
+  "biosecurity": {
+    "enabled": false,
+    "source_plasmids_screened": 0,
+    "source_plasmids_blocked": 0,
+    "total_flagged_excluded": 0,
+    "errors": 0,
+    "uncertain": 0
+  }
+}

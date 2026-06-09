@@ -1,0 +1,2079 @@
+LOCUS       pHAGE_TRE_dCas9-       14649 bp    DNA     circular SYN 06-MAR-2024
+DEFINITION  Lentiviral CRISPR interference vector for doxycycline-inducible
+            expression of catalytically inactive dCas9 fused to a KRAB
+            transcriptional repressor domain.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+REFERENCE   1  (bases 1 to 14649)
+  AUTHORS   Kearns NA, Genga RM, Enuameh MS, Garber M, Wolfe SA, Maehr R.
+  TITLE     Cas9 effector-mediated regulation of transcription and
+            differentiation in human pluripotent stem cells.
+  JOURNAL   Development 2014;141:219-23.
+   PUBMED   24346702
+REFERENCE   2  (bases 1 to 14649)
+  TITLE     Direct Submission
+  JOURNAL   Exported Feb 9, 2026 from SnapGene 8.2.2 https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName:
+            "Development"; date: "2014"; volume: "141"; pages: "219-23"
+            Sequence Label: pHAGE TRE dCas9-KRAB
+FEATURES             Location/Qualifiers
+     misc_feature    2..7
+                     /label="BsrGI"
+                     /note="layer=cloning_feature"
+     misc_feature    15..66
+                     /label="MCS-065"
+                     /note="db=feature_reference"
+     misc_feature    16..21
+                     /label="EcoRV"
+                     /note="layer=cloning_feature"
+     misc_feature    31..60
+                     /label="High GC (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    32..39
+                     /label="NotI"
+                     /note="layer=cloning_feature"
+     misc_feature    33..38
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    39..44
+                     /label="XhoI"
+                     /note="layer=cloning_feature"
+     misc_feature    45..50
+                     /label="XbaI"
+                     /note="layer=cloning_feature"
+     misc_feature    51..56
+                     /label="ApaI"
+                     /note="layer=cloning_feature"
+     misc_feature    55..60
+                     /label="SacII"
+                     /note="layer=cloning_feature"
+     misc_feature    61..66
+                     /label="BstBI"
+                     /note="layer=cloning_feature"
+     misc_feature    66..93
+                     /label="Self-homology 28 bp (82%)"
+                     /note="layer=cloning_feature"
+     misc_feature    72..92
+                     /label="HA-007"
+                     /note="db=feature_motifs"
+     misc_feature    76..81
+                     /label="ZraI"
+                     /note="layer=cloning_feature"
+     misc_feature    76..81
+                     /label="AatII"
+                     /note="layer=cloning_feature"
+     misc_feature    84..127
+                     /label="Low GC (32%)"
+                     /note="layer=cloning_feature"
+     misc_feature    103..110
+                     /label="PacI"
+                     /note="layer=cloning_feature"
+     misc_feature    103..106
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    107..110
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    125..161
+                     /label="PGK promoter-001"
+                     /note="db=feature_reference"
+     misc_feature    125..1390
+                     /label="Lentiviral Upstream Regulatory"
+                     /note="layer=module"
+     misc_feature    169..193
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    173..178
+                     /label="BglII"
+                     /note="layer=cloning_feature"
+     misc_feature    177..243
+                     /label="High GC (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    178..1390
+                     /label="UbC promoter-002"
+                     /note="db=feature_reference"
+     misc_feature    198..216
+                     /label="Inverted repeat stem 6 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    206..211
+                     /label="SacII"
+                     /note="layer=cloning_feature"
+     misc_feature    232..237
+                     /label="AfeI"
+                     /note="layer=cloning_feature"
+     misc_feature    277..309
+                     /label="High GC (79%)"
+                     /note="layer=cloning_feature"
+     misc_feature    287..311
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    296..308
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    443..467
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    445..469
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    579..612
+                     /label="High GC (74%)"
+                     /note="layer=cloning_feature"
+     misc_feature    591..646
+                     /label="High GC (79%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(651..656)
+                     /label="BsaI"
+                     /note="layer=cloning_feature"
+     misc_feature    753..758
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    790..814
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    793..817
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    832..837
+                     /label="StuI"
+                     /note="layer=cloning_feature"
+     misc_feature    873..897
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    945..971
+                     /label="High GC (78%)"
+                     /note="layer=cloning_feature"
+     misc_feature    962..987
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    984..1008
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    990..1014
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    994..1021
+                     /label="High GC (75%)"
+                     /note="layer=cloning_feature"
+     misc_feature    999..1004
+                     /label="BssHII"
+                     /note="layer=cloning_feature"
+     misc_feature    999..1024
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1001..1006
+                     /label="BssHII"
+                     /note="layer=cloning_feature"
+     misc_feature    1019..1028
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    1021..1026
+                     /label="ZraI"
+                     /note="layer=cloning_feature"
+     misc_feature    1021..1026
+                     /label="AatII"
+                     /note="layer=cloning_feature"
+     misc_feature    1049..1074
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1052..1076
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1056..1081
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1093..1118
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1117..1122
+                     /label="AvrII"
+                     /note="layer=cloning_feature"
+     misc_feature    1142..1166
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1144..1170
+                     /label="High GC (78%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1199..1225
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1217..1222
+                     /label="AflII"
+                     /note="layer=cloning_feature"
+     misc_feature    1218..1221
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    1278..1302
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1281..1307
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1294..1334
+                     /label="Low GC (24%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1314..1352
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1340..1345
+                     /label="SpeI"
+                     /note="layer=cloning_feature"
+     misc_feature    1391..1414
+                     /label="MCS-013"
+                     /note="db=feature_reference"
+     misc_feature    1392..1397
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    1398..1403
+                     /label="KpnI"
+                     /note="layer=cloning_feature"
+     misc_feature    1402..1411
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    1404..1409
+                     /label="SacI"
+                     /note="layer=cloning_feature"
+     misc_feature    1425..1430
+                     /label="AgeI"
+                     /note="layer=cloning_feature"
+     misc_feature    1432..1437
+                     /label="PstI"
+                     /note="layer=cloning_feature"
+     misc_feature    1440..1445
+                     /label="EcoRI"
+                     /note="layer=cloning_feature"
+     misc_feature    1448..2195
+                     /label="rtTA-Advanced"
+                     /note="db=feature_reference"
+     misc_feature    1449..2195
+                     /label="CDS ORF (249 aa)"
+                     /note="layer=module"
+     misc_feature    1449..2195
+                     /label="Protein Module"
+                     /note="layer=module"
+     misc_feature    1452..1457
+                     /label="XbaI"
+                     /note="layer=cloning_feature"
+     misc_feature    1483..1488
+                     /label="SacI"
+                     /note="layer=cloning_feature"
+     misc_feature    1517..1522
+                     /label="StuI"
+                     /note="layer=cloning_feature"
+     misc_feature    1578..1583
+                     /label="PmlI"
+                     /note="layer=cloning_feature"
+     misc_feature    1591..1616
+                     /label="High GC (73%)"
+                     /note="layer=cloning_feature"
+     misc_feature    1594..1599
+                     /label="ApaI"
+                     /note="layer=cloning_feature"
+     misc_feature    1727..1732
+                     /label="NruI"
+                     /note="layer=cloning_feature"
+     misc_feature    1821..1834
+                     /label="Inverted repeat stem 6 / loop 2"
+                     /note="layer=cloning_feature"
+     misc_feature    1966..1971
+                     /label="MfeI"
+                     /note="layer=cloning_feature"
+     misc_feature    1979..2003
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2027..2032
+                     /label="NdeI"
+                     /note="layer=cloning_feature"
+     misc_feature    2054..2089
+                     /label="High GC (72%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2079..2116
+                     /label="Self-homology 38 bp (82%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2082..2117
+                     /label="Self-homology 36 bp (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2118..2155
+                     /label="Self-homology 38 bp (82%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2130..2152
+                     /label="Self-homology 23 bp (83%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2160..2195
+                     /label="Self-homology 36 bp (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2169..2191
+                     /label="Self-homology 23 bp (83%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2187..2192
+                     /label="SmaI"
+                     /note="layer=cloning_feature"
+     misc_feature    2187..2192
+                     /label="XmaI"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(2203..2217)
+                     /label="3' MCS-003"
+                     /note="db=feature_motifs"
+     misc_feature    2204..2209
+                     /label="BamHI"
+                     /note="layer=cloning_feature"
+     misc_feature    2208..2213
+                     /label="SacII"
+                     /note="layer=cloning_feature"
+     misc_feature    2210..2217
+                     /label="NotI"
+                     /note="layer=cloning_feature"
+     misc_feature    2211..2216
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    2225..2230
+                     /label="EcoRI"
+                     /note="layer=cloning_feature"
+     misc_feature    2227..2258
+                     /label="High GC (72%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2232..2807
+                     /label="IRES-003"
+                     /note="db=feature_reference"
+     misc_feature    2244..2253
+                     /label="Homopolymer C×10"
+                     /note="layer=cloning_feature"
+     misc_feature    2290..2319
+                     /label="Low GC (33%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2297..2327
+                     /label="Low GC (29%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2323..2341
+                     /label="Inverted repeat stem 6 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    2346..2351
+                     /label="ApaI"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(2366..2371)
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    2384..2389
+                     /label="AvrII"
+                     /note="layer=cloning_feature"
+     misc_feature    2457..2462
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    2466..2471
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    2496..2524
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2503..2527
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2509..2533
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2514..2529
+                     /label="Inverted repeat stem 6 / loop 4"
+                     /note="layer=cloning_feature"
+     misc_feature    2516..2540
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2547..2552
+                     /label="PmlI"
+                     /note="layer=cloning_feature"
+     misc_feature    2550..2564
+                     /label="Inverted repeat stem 6 / loop 3"
+                     /note="layer=cloning_feature"
+     misc_feature    2674..2679
+                     /label="KpnI"
+                     /note="layer=cloning_feature"
+     misc_feature    2714..2730
+                     /label="Inverted repeat stem 6 / loop 5"
+                     /note="layer=cloning_feature"
+     misc_feature    2724..2729
+                     /label="PciI"
+                     /note="layer=cloning_feature"
+     misc_feature    2726..2750
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2742..2745
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    2744..2750
+                     /label="Homopolymer A×7"
+                     /note="layer=cloning_feature"
+     misc_feature    2751..2775
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2754..2778
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2756..2782
+                     /label="High GC (74%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2766..2783
+                     /label="Inverted repeat stem 6 / loop 6"
+                     /note="layer=cloning_feature"
+     misc_feature    2782..2807
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2788..2812
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2806..2811
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    2812..2817
+                     /label="AgeI"
+                     /note="layer=cloning_feature"
+     misc_feature    2822..3617
+                     /label="NeoR/KanR-013"
+                     /note="db=feature_reference"
+     misc_feature    2823..3617
+                     /label="CDS ORF (265 aa)"
+                     /note="layer=module"
+     misc_feature    2823..3617
+                     /label="Protein Module"
+                     /note="layer=module"
+     misc_feature    2857..2862
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    2922..2946
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    2930..2961
+                     /label="High GC (75%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3011..3035
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3024..3039
+                     /label="Inverted repeat stem 7 / loop 2"
+                     /note="layer=cloning_feature"
+     misc_feature    3025..3049
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3031..3036
+                     /label="MscI"
+                     /note="layer=cloning_feature"
+     misc_feature    3051..3056
+                     /label="FspI"
+                     /note="layer=cloning_feature"
+     misc_feature    3055..3060
+                     /label="PvuII"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(3300..3306)
+                     /label="SapI"
+                     /note="layer=cloning_feature"
+     misc_feature    3303..3327
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3352..3357
+                     /label="SphI"
+                     /note="layer=cloning_feature"
+     misc_feature    3383..3388
+                     /label="NcoI"
+                     /note="layer=cloning_feature"
+     misc_feature    3443..3468
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3446..3475
+                     /label="High GC (73%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3471..3488
+                     /label="Inverted repeat stem 6 / loop 6"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(3510..3516)
+                     /label="SapI"
+                     /note="layer=cloning_feature"
+     misc_feature    3618..3623
+                     /label="BsrGI"
+                     /note="layer=cloning_feature"
+     misc_feature    3630..3637
+                     /label="NotI"
+                     /note="layer=cloning_feature"
+     misc_feature    3631..3636
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    3641..3646
+                     /label="XbaI"
+                     /note="layer=cloning_feature"
+     misc_feature    3644..3725
+                     /label="Large T antigen"
+                     /note="db=swissprot"
+     misc_feature    3666..3696
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3674..3698
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3687..3692
+                     /label="DraI"
+                     /note="layer=cloning_feature"
+     misc_feature    3688..3691
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    3689..3750
+                     /label="stuffer fragment"
+                     /note="db=feature_reference"
+     misc_feature    3715..3754
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3737..3742
+                     /label="MfeI"
+                     /note="layer=cloning_feature"
+     misc_feature    3761..3784
+                     /label="MCS-148"
+                     /note="db=feature_reference"
+     misc_feature    3765..3783
+                     /label="Inverted repeat stem 6 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    3767..3772
+                     /label="EcoRV"
+                     /note="layer=cloning_feature"
+     misc_feature    3773..3778
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    3778..3789
+                     /label="Palindrome 12 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    3779..3784
+                     /label="ClaI"
+                     /note="layer=cloning_feature"
+     misc_feature    3781..3786
+                     /label="PvuI"
+                     /note="layer=cloning_feature"
+     misc_feature    3783..3788
+                     /label="ClaI"
+                     /note="layer=cloning_feature"
+     misc_feature    3795..4384
+                     /label="WPRE-003"
+                     /note="db=feature_reference"
+     misc_feature    3795..3820
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3804..3835
+                     /label="Low GC (31%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3814..3840
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3824..3849
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3828..3852
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3837..3862
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3842..3845
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    3882..3906
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    3883..3886
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    3899..4432
+                     /label="CDS ORF (178 aa)"
+                     /note="layer=module"
+     misc_feature    3921..3946
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4113..4137
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4115..4142
+                     /label="High GC (75%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4124..4148
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4128..4155
+                     /label="High GC (75%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4245..4250
+                     /label="ZraI"
+                     /note="layer=cloning_feature"
+     misc_feature    4245..4250
+                     /label="AatII"
+                     /note="layer=cloning_feature"
+     misc_feature    4279..4303
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4282..4306
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4287..4325
+                     /label="High GC (74%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4296..4301
+                     /label="SacII"
+                     /note="layer=cloning_feature"
+     misc_feature    4305..4333
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(4331..4336)
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    4361..4389
+                     /label="High GC (72%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4369..4394
+                     /label="High GC (73%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4391..4457
+                     /label="nef"
+                     /note="db=swissprot"
+     misc_feature    4395..4398
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    4417..4422
+                     /label="PvuII"
+                     /note="layer=cloning_feature"
+     misc_feature    4421..4445
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4423..4451
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4424..4429
+                     /label="BglII"
+                     /note="layer=cloning_feature"
+     misc_feature    4438..4457
+                     /label="Direct repeat 20 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    4438..4469
+                     /label="Self-homology 32 bp (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4439..4444
+                     /label="DraI"
+                     /note="layer=cloning_feature"
+     misc_feature    4440..4443
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    4458..4692
+                     /label="3' LTR (Delta-U3)-002"
+                     /note="db=feature_reference"
+     misc_feature    4458..8040
+                     /label="Lentiviral Payload (Gen 2)"
+                     /note="layer=module"
+     misc_feature    4459..4481
+                     /label="Direct repeat 23 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    4459..4510
+                     /label="Self-homology 52 bp (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4483..4488
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    4490..4495
+                     /label="BglII"
+                     /note="layer=cloning_feature"
+     misc_feature    4494..4760
+                     /label="Self-homology 267 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4506..4694
+                     /label="Direct repeat 189 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    4506..4758
+                     /label="Self-homology 253 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4513..4518
+                     /label="BsaI"
+                     /note="layer=cloning_feature"
+     misc_feature    4519..4533
+                     /label="Inverted repeat stem 6 / loop 3"
+                     /note="layer=cloning_feature"
+     misc_feature    4531..4653
+                     /label="HIV-1 poly(A)"
+                     /note="db=feature_reference"
+     misc_feature    4531..4536
+                     /label="BglII"
+                     /note="layer=cloning_feature"
+     misc_feature    4545..4550
+                     /label="SacI"
+                     /note="layer=cloning_feature"
+     misc_feature    4575..4580
+                     /label="AflII"
+                     /note="layer=cloning_feature"
+     misc_feature    4576..4579
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    4589..4594
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    4692..4753
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4764..4769
+                     /label="SmaI"
+                     /note="layer=cloning_feature"
+     misc_feature    4764..4769
+                     /label="XmaI"
+                     /note="layer=cloning_feature"
+     misc_feature    4770..4777
+                     /label="PacI"
+                     /note="layer=cloning_feature"
+     misc_feature    4770..4773
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    4774..4777
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    4799..4804
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    4817..4844
+                     /label="Low GC (29%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4823..4868
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(4830..4869)
+                     /label="lacZ-alpha-067"
+                     /note="db=feature_reference"
+     misc_feature    4838..4841
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    4846..4870
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4866..4871
+                     /label="ZraI"
+                     /note="layer=cloning_feature"
+     misc_feature    4866..4871
+                     /label="AatII"
+                     /note="layer=cloning_feature"
+     misc_feature    4896..5001
+                     /label="AmpR promoter-009"
+                     /note="db=feature_reference"
+     misc_feature    4896..5865
+                     /label="Bacterial selection (AmpR-009)"
+                     /note="layer=module"
+     misc_feature    4901..4949
+                     /label="Low GC (29%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4927..4944
+                     /label="Inverted repeat stem 6 / loop 6"
+                     /note="layer=cloning_feature"
+     misc_feature    4958..5010
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    4976..4990
+                     /label="Inverted repeat stem 7 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    4989..5013
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    5002..5862
+                     /label="CDS ORF (287 aa)"
+                     /note="layer=module"
+     misc_feature    5002..5862
+                     /label="Protein Module"
+                     /note="layer=module"
+     misc_feature    5004..5865
+                     /label="AmpR-009"
+                     /note="db=feature_reference"
+     misc_feature    5190..5214
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    5209..5214
+                     /label="DraI"
+                     /note="layer=cloning_feature"
+     misc_feature    5210..5213
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    5304..5313
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    5306..5311
+                     /label="ScaI"
+                     /note="layer=cloning_feature"
+     misc_feature    5417..5422
+                     /label="PvuI"
+                     /note="layer=cloning_feature"
+     misc_feature    5564..5569
+                     /label="FspI"
+                     /note="layer=cloning_feature"
+     misc_feature    5575..5578
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    5614..5617
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    5655..5683
+                     /label="High GC (72%)"
+                     /note="layer=cloning_feature"
+     misc_feature    5701..5726
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    5717..5722
+                     /label="BsaI"
+                     /note="layer=cloning_feature"
+     misc_feature    5849..5852
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    5868..5942
+                     /label="Low GC (24%)"
+                     /note="layer=cloning_feature"
+     misc_feature    5901..5906
+                     /label="DraI"
+                     /note="layer=cloning_feature"
+     misc_feature    5902..5905
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    5902..5919
+                     /label="Inverted repeat stem 6 / loop 6"
+                     /note="layer=cloning_feature"
+     misc_feature    5914..5926
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    5916..5919
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    5920..5925
+                     /label="DraI"
+                     /note="layer=cloning_feature"
+     misc_feature    5921..5924
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    5923..5948
+                     /label="Inverted repeat stem 10 / loop 6"
+                     /note="layer=cloning_feature"
+     misc_feature    5936..5960
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    5938..5962
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    5944..5970
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    5973..5976
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    6016..6031
+                     /label="Inverted repeat stem 6 / loop 4"
+                     /note="layer=cloning_feature"
+     misc_feature    6022..6044
+                     /label="Inverted repeat stem 8 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    6032..6621
+                     /label="ori-013"
+                     /note="db=feature_reference"
+     misc_feature    6042..6048
+                     /label="Homopolymer T×7"
+                     /note="layer=cloning_feature"
+     misc_feature    6075..6081
+                     /label="Homopolymer A×7"
+                     /note="layer=cloning_feature"
+     misc_feature    6079..6103
+                     /label="Inverted repeat stem 9 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    6332..6360
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    6339..6363
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    6677..6682
+                     /label="PciI"
+                     /note="layer=cloning_feature"
+     misc_feature    6745..6778
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(6799..6805)
+                     /label="SapI"
+                     /note="layer=cloning_feature"
+     misc_feature    6803..6858
+                     /label="lacI-006"
+                     /note="db=feature_reference"
+     misc_feature    6818..6845
+                     /label="High GC (71%)"
+                     /note="layer=cloning_feature"
+     misc_feature    6849..6852
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    6862..6899
+                     /label="Low GC (37%)"
+                     /note="layer=cloning_feature"
+     misc_feature    6863..6957
+                     /label="SV40 ori-002"
+                     /note="db=feature_reference"
+     misc_feature    6877..6884
+                     /label="Homopolymer T×8"
+                     /note="layer=cloning_feature"
+     misc_feature    6889..6922
+                     /label="High GC (71%)"
+                     /note="layer=cloning_feature"
+     misc_feature    6892..6918
+                     /label="Inverted repeat stem 10 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    6900..6916
+                     /label="Inverted repeat stem 6 / loop 5"
+                     /note="layer=cloning_feature"
+     misc_feature    6953..6958
+                     /label="StuI"
+                     /note="layer=cloning_feature"
+     misc_feature    6956..6961
+                     /label="AvrII"
+                     /note="layer=cloning_feature"
+     misc_feature    6961..6975
+                     /label="Inverted repeat stem 6 / loop 3"
+                     /note="layer=cloning_feature"
+     misc_feature    6963..6972
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    6981..7019
+                     /label="lacI-006"
+                     /note="db=feature_reference"
+     misc_feature    7031..7053
+                     /label="CAP binding site-002"
+                     /note="db=feature_reference"
+     misc_feature    7031..7034
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    7067..7098
+                     /label="lac promoter-002"
+                     /note="db=feature_reference"
+     misc_feature    complement(7101..7124)
+                     /label="lac operator-004"
+                     /note="db=feature_reference"
+     misc_feature    7141..7192
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(7155..7239)
+                     /label="SV40 poly(A) signal-005"
+                     /note="db=feature_reference"
+     misc_feature    7173..7197
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    7174..7180
+                     /label="Homopolymer T×7"
+                     /note="layer=cloning_feature"
+     misc_feature    7206..7232
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    7318..7342
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    7336..7408
+                     /label="Low GC (23%)"
+                     /note="layer=cloning_feature"
+     misc_feature    7361..7366
+                     /label="DraI"
+                     /note="layer=cloning_feature"
+     misc_feature    7362..7365
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    7380..7383
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    7406..8040
+                     /label="HIV-1 LTR"
+                     /note="db=feature_reference"
+     misc_feature    7407..7429
+                     /label="Direct repeat 23 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    7407..7458
+                     /label="Self-homology 52 bp (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    7431..7436
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    7439..7444
+                     /label="EcoRV"
+                     /note="layer=cloning_feature"
+     misc_feature    7513..7531
+                     /label="Inverted repeat stem 6 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    7518..7523
+                     /label="EcoRV"
+                     /note="layer=cloning_feature"
+     misc_feature    7694..7699
+                     /label="PmlI"
+                     /note="layer=cloning_feature"
+     misc_feature    7719..7724
+                     /label="ScaI"
+                     /note="layer=cloning_feature"
+     misc_feature    7737..7742
+                     /label="EcoRV"
+                     /note="layer=cloning_feature"
+     misc_feature    7776..7822
+                     /label="High GC (74%)"
+                     /note="layer=cloning_feature"
+     misc_feature    7836..7847
+                     /label="Palindrome 12 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    7839..7844
+                     /label="PvuII"
+                     /note="layer=cloning_feature"
+     misc_feature    7842..8108
+                     /label="Self-homology 267 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    7854..8042
+                     /label="Direct repeat 189 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    7854..8106
+                     /label="Self-homology 253 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    7861..7866
+                     /label="BsaI"
+                     /note="layer=cloning_feature"
+     misc_feature    7867..7881
+                     /label="Inverted repeat stem 6 / loop 3"
+                     /note="layer=cloning_feature"
+     misc_feature    7879..8001
+                     /label="HIV-1 poly(A)"
+                     /note="db=feature_reference"
+     misc_feature    7879..7884
+                     /label="BglII"
+                     /note="layer=cloning_feature"
+     misc_feature    7893..7898
+                     /label="SacI"
+                     /note="layer=cloning_feature"
+     misc_feature    7923..7928
+                     /label="AflII"
+                     /note="layer=cloning_feature"
+     misc_feature    7924..7927
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    7937..7942
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    8084..8089
+                     /label="SacI"
+                     /note="layer=cloning_feature"
+     misc_feature    8086..8212
+                     /label="HIV-1 Psi"
+                     /note="db=feature_reference"
+     misc_feature    8116..8150
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    8117..8122
+                     /label="BssHII"
+                     /note="layer=cloning_feature"
+     misc_feature    8130..8154
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    8195..8550
+                     /label="gag"
+                     /note="db=feature_reference"
+     misc_feature    8217..8220
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    8237..8242
+                     /label="NruI"
+                     /note="layer=cloning_feature"
+     misc_feature    8258..8261
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    8265..8310
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    8288..8291
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    8334..8337
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    8409..8449
+                     /label="Low GC (32%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(8421..8882)
+                     /label="CDS ORF (154 aa)"
+                     /note="layer=module"
+     misc_feature    8428..8437
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    8493..8498
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(8513..8519)
+                     /label="SapI"
+                     /note="layer=cloning_feature"
+     misc_feature    8533..8563
+                     /label="High GC (74%)"
+                     /note="layer=cloning_feature"
+     misc_feature    8548..8561
+                     /label="Palindrome 14 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    8548..8561
+                     /label="Inverted repeat stem 6 / loop 2"
+                     /note="layer=cloning_feature"
+     misc_feature    8550..8555
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    8551..8558
+                     /label="FseI"
+                     /note="layer=cloning_feature"
+     misc_feature    8554..8559
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    8587..9513
+                     /label="CDS ORF (309 aa)"
+                     /note="layer=module"
+     misc_feature    8593..8649
+                     /label="Low GC (25%)"
+                     /note="layer=cloning_feature"
+     misc_feature    8595..8600
+                     /label="MfeI"
+                     /note="layer=cloning_feature"
+     misc_feature    8611..8624
+                     /label="Inverted repeat stem 6 / loop 2"
+                     /note="layer=cloning_feature"
+     misc_feature    8627..8652
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    8708..8942
+                     /label="RRE"
+                     /note="db=feature_reference"
+     misc_feature    8759..8775
+                     /label="Inverted repeat stem 7 / loop 3"
+                     /note="layer=cloning_feature"
+     misc_feature    8786..8804
+                     /label="Inverted repeat stem 7 / loop 5"
+                     /note="layer=cloning_feature"
+     misc_feature    8847..8863
+                     /label="Inverted repeat stem 6 / loop 5"
+                     /note="layer=cloning_feature"
+     misc_feature    9007..9031
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9013..9031
+                     /label="Inverted repeat stem 6 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    9058..9083
+                     /label="Low GC (31%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9061..9094
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9068..9071
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    9081..9086
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    9081..9105
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9084..9110
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9085..9088
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    9097..9100
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    9119..9166
+                     /label="Low GC (29%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9165..9190
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9168..9200
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9182..9185
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    9187..9236
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9237..9262
+                     /label="Low GC (31%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9242..9267
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9245..9278
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9247..9250
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    9257..9283
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9264..9290
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9320..9346
+                     /label="High GC (78%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9324..9348
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9327..9359
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9434..9439
+                     /label="EcoRI"
+                     /note="layer=cloning_feature"
+     misc_feature    9444..10400
+                     /label="CDS ORF (319 aa)"
+                     /note="layer=module"
+     misc_feature    9447..9478
+                     /label="Low GC (31%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9463..9581
+                     /label="cPPT/CTS-001"
+                     /note="db=feature_reference"
+     misc_feature    9464..9483
+                     /label="Direct repeat 20 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9464..9495
+                     /label="Self-homology 32 bp (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9465..9470
+                     /label="DraI"
+                     /note="layer=cloning_feature"
+     misc_feature    9466..9469
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    9504..9530
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9519..9545
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9526..9595
+                     /label="Low GC (24%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9566..9585
+                     /label="Self-homology 20 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9567..9581
+                     /label="Inverted repeat stem 6 / loop 3"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(9619..10551)
+                     /label="CDS ORF (311 aa)"
+                     /note="layer=module"
+     misc_feature    9622..9627
+                     /label="BamHI"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9879
+                     /label="Direct repeat 252 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9837
+                     /label="Direct repeat 210 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9795
+                     /label="Direct repeat 168 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9753
+                     /label="Direct repeat 126 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9711
+                     /label="Direct repeat 84 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9669
+                     /label="Direct repeat 42 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9965
+                     /label="Self-homology 338 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9907
+                     /label="Self-homology 280 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9850
+                     /label="Self-homology 223 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9795
+                     /label="Self-homology 168 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9743
+                     /label="Self-homology 116 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9628..9684
+                     /label="Self-homology 57 bp (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9635..9906
+                     /label="tetracycline response element"
+                     /note="db=feature_reference"
+     misc_feature    9639..9651
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    9670..9921
+                     /label="Direct repeat 252 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9670..10007
+                     /label="Self-homology 338 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9681..9693
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    9712..9921
+                     /label="Direct repeat 210 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9712..9991
+                     /label="Self-homology 280 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9723..9735
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    9754..9921
+                     /label="Direct repeat 168 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9754..9976
+                     /label="Self-homology 223 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9765..9777
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    9796..9921
+                     /label="Direct repeat 126 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9796..9963
+                     /label="Self-homology 168 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9807..9819
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    9838..9921
+                     /label="Direct repeat 84 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9838..9953
+                     /label="Self-homology 116 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9849..9861
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    9880..9921
+                     /label="Direct repeat 42 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    9880..9936
+                     /label="Self-homology 57 bp (81%)"
+                     /note="layer=cloning_feature"
+     misc_feature    9891..9903
+                     /label="Inverted repeat stem 6 / loop 1"
+                     /note="layer=cloning_feature"
+     misc_feature    9916..9934
+                     /label="MCS-195"
+                     /note="db=feature_reference"
+     misc_feature    9919..9924
+                     /label="SacI"
+                     /note="layer=cloning_feature"
+     misc_feature    9925..9930
+                     /label="KpnI"
+                     /note="layer=cloning_feature"
+     misc_feature    9929..9934
+                     /label="SmaI"
+                     /note="layer=cloning_feature"
+     misc_feature    9929..9934
+                     /label="XmaI"
+                     /note="layer=cloning_feature"
+     misc_feature    9938..9977
+                     /label="minimal CMV promoter-002"
+                     /note="db=feature_reference"
+     misc_feature    9958..9963
+                     /label="StuI"
+                     /note="layer=cloning_feature"
+     misc_feature    9973..9978
+                     /label="SacI"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(10004..10009)
+                     /label="BsmBI"
+                     /note="layer=cloning_feature"
+     misc_feature    10036..10041
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    10041..10074
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    10061..10066
+                     /label="SacII"
+                     /note="layer=cloning_feature"
+     misc_feature    10072..10105
+                     /label="MCS-076"
+                     /note="db=feature_reference"
+     misc_feature    10073..10078
+                     /label="SpeI"
+                     /note="layer=cloning_feature"
+     misc_feature    10090..10095
+                     /label="EcoRI"
+                     /note="layer=cloning_feature"
+     misc_feature    10095..10100
+                     /label="PstI"
+                     /note="layer=cloning_feature"
+     misc_feature    10098..10127
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    10100..10105
+                     /label="EcoRV"
+                     /note="layer=cloning_feature"
+     misc_feature    10106..10131
+                     /label="attB1"
+                     /note="db=feature_reference"
+     misc_feature    10107..10131
+                     /label="attB1"
+                     /note="layer=cloning_feature"
+     misc_feature    10112..10121
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    10114..10119
+                     /label="BsrGI"
+                     /note="layer=cloning_feature"
+     misc_feature    10139..10144
+                     /label="NcoI"
+                     /note="layer=cloning_feature"
+     misc_feature    10140..14244
+                     /label="Cas9"
+                     /note="db=feature_protein"
+     misc_feature    10141..14601
+                     /label="CDS ORF (1487 aa)"
+                     /note="layer=module"
+     misc_feature    10141..14244
+                     /label="Protein Module"
+                     /note="layer=module"
+     misc_feature    10151..10156
+                     /label="ScaI"
+                     /note="layer=cloning_feature"
+     misc_feature    10174..10179
+                     /label="KpnI"
+                     /note="layer=cloning_feature"
+     misc_feature    10228..10252
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    10229..10248
+                     /label="Self-homology 20 bp (80%)"
+                     /note="layer=cloning_feature"
+     misc_feature    10254..10259
+                     /label="PvuI"
+                     /note="layer=cloning_feature"
+     misc_feature    10299..10323
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    10302..10332
+                     /label="High GC (77%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(10309..10314)
+                     /label="BsmBI"
+                     /note="layer=cloning_feature"
+     misc_feature    10313..10318
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    10383..10390
+                     /label="SbfI"
+                     /note="layer=cloning_feature"
+     misc_feature    10384..10389
+                     /label="PstI"
+                     /note="layer=cloning_feature"
+     misc_feature    10391..10396
+                     /label="BglII"
+                     /note="layer=cloning_feature"
+     misc_feature    10573..10578
+                     /label="ScaI"
+                     /note="layer=cloning_feature"
+     misc_feature    10681..10686
+                     /label="SalI"
+                     /note="layer=cloning_feature"
+     misc_feature    10742..10760
+                     /label="Inverted repeat stem 6 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    10777..10782
+                     /label="AfeI"
+                     /note="layer=cloning_feature"
+     misc_feature    10866..10890
+                     /label="High GC (76%)"
+                     /note="layer=cloning_feature"
+     misc_feature    10894..10899
+                     /label="DraI"
+                     /note="layer=cloning_feature"
+     misc_feature    10895..10898
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    11006..11012
+                     /label="Homopolymer T×7"
+                     /note="layer=cloning_feature"
+     misc_feature    11092..11097
+                     /label="AfeI"
+                     /note="layer=cloning_feature"
+     misc_feature    11108..11113
+                     /label="AfeI"
+                     /note="layer=cloning_feature"
+     misc_feature    11185..11212
+                     /label="Low GC (29%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11244..11280
+                     /label="Low GC (35%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11260..11288
+                     /label="Low GC (24%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11267..11270
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    11320..11336
+                     /label="Inverted repeat stem 6 / loop 5"
+                     /note="layer=cloning_feature"
+     misc_feature    11328..11333
+                     /label="BglII"
+                     /note="layer=cloning_feature"
+     misc_feature    11336..11341
+                     /label="FspI"
+                     /note="layer=cloning_feature"
+     misc_feature    11423..11447
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11434..11460
+                     /label="Low GC (26%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11444..11468
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11453..11478
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(11545..12063)
+                     /label="CDS ORF (173 aa)"
+                     /note="layer=module"
+     misc_feature    complement(11551..11556)
+                     /label="BsaI"
+                     /note="layer=cloning_feature"
+     misc_feature    11617..11647
+                     /label="Low GC (32%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11626..11652
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11632..11657
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11687..11692
+                     /label="ScaI"
+                     /note="layer=cloning_feature"
+     misc_feature    11707..11712
+                     /label="SacI"
+                     /note="layer=cloning_feature"
+     misc_feature    11828..11852
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11830..11869
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11836..11841
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    11927..11951
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11933..11957
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    11942..11945
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    11988..12004
+                     /label="Inverted repeat stem 6 / loop 5"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(12096..12101)
+                     /label="BsmBI"
+                     /note="layer=cloning_feature"
+     misc_feature    12187..12192
+                     /label="AflII"
+                     /note="layer=cloning_feature"
+     misc_feature    12188..12191
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    12251..12254
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    12264..12284
+                     /label="Inverted repeat stem 7 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    12282..12287
+                     /label="MscI"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(12296..12301)
+                     /label="BbsI"
+                     /note="layer=cloning_feature"
+     misc_feature    12352..12357
+                     /label="PstI"
+                     /note="layer=cloning_feature"
+     misc_feature    12362..12365
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    12524..12533
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    12526..12531
+                     /label="AflII"
+                     /note="layer=cloning_feature"
+     misc_feature    12527..12530
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    12554..12572
+                     /label="Inverted repeat stem 6 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    12586..12591
+                     /label="PstI"
+                     /note="layer=cloning_feature"
+     misc_feature    12602..12607
+                     /label="PciI"
+                     /note="layer=cloning_feature"
+     misc_feature    12630..12639
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    12632..12637
+                     /label="AgeI"
+                     /note="layer=cloning_feature"
+     misc_feature    12671..12696
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    12672..12677
+                     /label="HindIII"
+                     /note="layer=cloning_feature"
+     misc_feature    12675..12719
+                     /label="Low GC (29%)"
+                     /note="layer=cloning_feature"
+     misc_feature    12722..12746
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    12756..12791
+                     /label="Low GC (31%)"
+                     /note="layer=cloning_feature"
+     misc_feature    12793..12798
+                     /label="PvuII"
+                     /note="layer=cloning_feature"
+     misc_feature    12878..12887
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    12928..12933
+                     /label="PmlI"
+                     /note="layer=cloning_feature"
+     misc_feature    12998..13022
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13026..13031
+                     /label="BsaI"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(13030..14187)
+                     /label="CDS ORF (386 aa)"
+                     /note="layer=module"
+     misc_feature    13034..13061
+                     /label="Low GC (25%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13087..13096
+                     /label="Palindrome 10 bp"
+                     /note="layer=cloning_feature"
+     misc_feature    13089..13094
+                     /label="FspI"
+                     /note="layer=cloning_feature"
+     misc_feature    13110..13128
+                     /label="Inverted repeat stem 6 / loop 7"
+                     /note="layer=cloning_feature"
+     misc_feature    13158..13182
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13160..13184
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13177..13202
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13241..13291
+                     /label="Low GC (27%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13244..13249
+                     /label="ScaI"
+                     /note="layer=cloning_feature"
+     misc_feature    13295..13300
+                     /label="MscI"
+                     /note="layer=cloning_feature"
+     misc_feature    13379..13384
+                     /label="NruI"
+                     /note="layer=cloning_feature"
+     misc_feature    13424..13427
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    13577..13582
+                     /label="MscI"
+                     /note="layer=cloning_feature"
+     misc_feature    13591..13615
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13692..13718
+                     /label="Low GC (30%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13705..13722
+                     /label="Inverted repeat stem 6 / loop 6"
+                     /note="layer=cloning_feature"
+     misc_feature    13727..13730
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    13739..13744
+                     /label="ScaI"
+                     /note="layer=cloning_feature"
+     misc_feature    13764..13769
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    13798..13803
+                     /label="PstI"
+                     /note="layer=cloning_feature"
+     misc_feature    13826..13855
+                     /label="Low GC (33%)"
+                     /note="layer=cloning_feature"
+     misc_feature    13838..13841
+                     /label="MseI"
+                     /note="layer=cloning_feature"
+     misc_feature    13853..13858
+                     /label="MscI"
+                     /note="layer=cloning_feature"
+     misc_feature    13880..13885
+                     /label="BsaI"
+                     /note="layer=cloning_feature"
+     misc_feature    13906..13911
+                     /label="PvuII"
+                     /note="layer=cloning_feature"
+     misc_feature    14016..14030
+                     /label="Inverted repeat stem 6 / loop 3"
+                     /note="layer=cloning_feature"
+     misc_feature    14058..14082
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    14060..14084
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    14095..14102
+                     /label="AscI"
+                     /note="layer=cloning_feature"
+     misc_feature    14096..14101
+                     /label="BssHII"
+                     /note="layer=cloning_feature"
+     misc_feature    14102..14107
+                     /label="PstI"
+                     /note="layer=cloning_feature"
+     misc_feature    14114..14119
+                     /label="ScaI"
+                     /note="layer=cloning_feature"
+     misc_feature    14178..14191
+                     /label="Inverted repeat stem 6 / loop 2"
+                     /note="layer=cloning_feature"
+     misc_feature    14230..14263
+                     /label="High GC (74%)"
+                     /note="layer=cloning_feature"
+     misc_feature    complement(14240..14245)
+                     /label="BsmBI"
+                     /note="layer=cloning_feature"
+     misc_feature    14245..14277
+                     /label="Gap Module"
+                     /note="layer=module"
+     misc_feature    14254..14259
+                     /label="ApaI"
+                     /note="layer=cloning_feature"
+     misc_feature    14277..14367
+                     /label="pdb|3xHA|001"
+                     /note="db=feature_reference"
+     misc_feature    14277..14304
+                     /label="Self-homology 28 bp (82%)"
+                     /note="layer=cloning_feature"
+     misc_feature    14278..14304
+                     /label="Tag Module"
+                     /note="layer=module"
+     misc_feature    14308..14334
+                     /label="Tag Module"
+                     /note="layer=module"
+     misc_feature    14317..14322
+                     /label="ZraI"
+                     /note="layer=cloning_feature"
+     misc_feature    14317..14322
+                     /label="AatII"
+                     /note="layer=cloning_feature"
+     misc_feature    14335..14370
+                     /label="Gap Module"
+                     /note="layer=module"
+     misc_feature    14368..14373
+                     /label="BamHI"
+                     /note="layer=cloning_feature"
+     misc_feature    14371..14598
+                     /label="Protein Module"
+                     /note="layer=module"
+     misc_feature    14372..14377
+                     /label="NcoI"
+                     /note="layer=cloning_feature"
+     misc_feature    14373..14598
+                     /label="ZNF10"
+                     /note="db=swissprot"
+     misc_feature    14444..14449
+                     /label="PmlI"
+                     /note="layer=cloning_feature"
+     misc_feature    14472..14477
+                     /label="FspI"
+                     /note="layer=cloning_feature"
+     misc_feature    14477..14501
+                     /label="Low GC (28%)"
+                     /note="layer=cloning_feature"
+     misc_feature    14602..14607
+                     /label="BstBI"
+                     /note="layer=cloning_feature"
+     misc_feature    14617..14624
+                     /label="NotI"
+                     /note="layer=cloning_feature"
+     misc_feature    14618..14623
+                     /label="EagI"
+                     /note="layer=cloning_feature"
+     misc_feature    14625..14630
+                     /label="XhoI"
+                     /note="layer=cloning_feature"
+     misc_feature    14630..14635
+                     /label="EcoRV"
+                     /note="layer=cloning_feature"
+     misc_feature    14634..14639
+                     /label="XbaI"
+                     /note="layer=cloning_feature"
+ORIGIN
+        1 ttgtacaaag tggttgatat ccagcacagt ggcggccgct cgagtctaga gggcccgcgg
+       61 ttcgaatacc catacgacgt cccagactac gcttagtaat gattaattaa actagaaatt
+      121 ctaccgggta ggggaggcgc ttttcccaag gcagtctgga gtaacccacc caagatctgg
+      181 cctccgcgcc gggttttggc gcctcccgcg ggcgcccccc tcctcacggc gagcgctgcc
+      241 acgtcagacg aagggcgcag cgagcgtcct gatccttccg cccggacgct caggacagcg
+      301 gcccgctgct cataagactc ggccttagaa ccccagtatc agcagaagga cattttagga
+      361 cgggacttgg gtgactctag ggcactggtt ttctttccag agagcggaac aggcgaggaa
+      421 aagtagtccc ttctcggcga ttctgcggag ggatctccgt ggggcggtga acgccgatga
+      481 ttatataagg acgcgccggg tgtggcacag ctagttccgt cgcagccggg atttgggtcg
+      541 cggttcttgt ttgtggatcg ctgtgatcgt cacttggtga gtagcgggct gctgggctgg
+      601 ccggggcttt cgtggccgcc gggccgctcg gtgggacgga agcgtgtgga gagaccgcca
+      661 agggctgtag tctgggtccg cgagcaaggt tgccctgaac tgggggttgg ggggagcgca
+      721 gcaaaatggc ggctgttccc gagtcttgaa tggaagacgc ttgtgaggcg ggctgtgagg
+      781 tcgttgaaac aaggtggggg gcatggtggg cggcaagaac ccaaggtctt gaggccttcg
+      841 ctaatgcggg aaagctctta ttcgggtgag atgggctggg gcaccatctg gggaccctga
+      901 cgtgaagttt gtcactgact ggagaactcg gtttgtcgtc tgttgcgggg gcggcagtta
+      961 tggcggtgcc gttgggcagt gcacccgtac ctttgggagc gcgcgccctc gtcgtgtcgt
+     1021 gacgtcaccc gttctgttgg cttataatgc agggtggggc cacctgccgg taggtgtgcg
+     1081 gtaggctttt ctccgtcgca ggacgcaggg ttcgggccta gggtaggctc tcctgaatcg
+     1141 acaggcgccg gacctctggt gaggggaggg ataagtgagg cgtcagtttc tttggtcggt
+     1201 tttatgtacc tatcttctta agtagctgaa gctccggttt tgaactatgc gctcggggtt
+     1261 ggcgagtgtg ttttgtgaag ttttttaggc accttttgaa atgtaatcat ttgggtcaat
+     1321 atgtaatttt cagtgttaga ctagtaaatt gtccgctaaa ttctggccgt ttttggcttt
+     1381 tttgttagac gaagcttggt accgagctcg gatctccacc ccgtaccggt cctgcagtcg
+     1441 aattcaccat gtctagactg gacaagagca aagtcataaa cggagctctg gaattactca
+     1501 atggtgtcgg tatcgaaggc ctgacgacaa ggaaactcgc tcaaaagctg ggagttgagc
+     1561 agcctaccct gtactggcac gtgaagaaca agcgggccct gctcgatgcc ctgccaatcg
+     1621 agatgctgga caggcatcat acccacttct gccccctgga aggcgagtca tggcaagact
+     1681 ttctgcggaa caacgccaag tcataccgct gtgctctcct ctcacatcgc gacggggcta
+     1741 aagtgcatct cggcacccgc ccaacagaga aacagtacga aaccctggaa aatcagctcg
+     1801 cgttcctgtg tcagcaaggc ttctccctgg agaacgcact gtacgctctg tccgccgtgg
+     1861 gccactttac actgggctgc gtattggagg aacaggagca tcaagtagca aaagaggaaa
+     1921 gagagacacc taccaccgat tctatgcccc cacttctgag acaagcaatt gagctgttcg
+     1981 accggcaggg agccgaacct gccttccttt tcggcctgga actaatcata tgtggcctgg
+     2041 agaaacagct aaagtgcgaa agcggcgggc cgaccgacgc ccttgacgat tttgacttag
+     2101 acatgctccc agccgatgcc cttgacgact ttgaccttga tatgctgcct gctgacgctc
+     2161 ttgacgattt tgaccttgac atgctccccg ggtaactaag taaggatccg cggccgcact
+     2221 agaggaattc cgcccctctc cctccccccc ccctaacgtt actggccgaa gccgcttgga
+     2281 ataaggccgg tgtgtgtttg tctatatgtt attttccacc atattgccgt cttttggcaa
+     2341 tgtgagggcc cggaaacctg gccctgtctt cttgacgagc attcctaggg gtctttcccc
+     2401 tctcgccaaa ggaatgcaag gtctgttgaa tgtcgtgaag gaagcagttc ctctggaagc
+     2461 ttcttgaaga caaacaacgt ctgtagcgac cctttgcagg cagcggaacc ccccacctgg
+     2521 cgacaggtgc ctctgcggcc aaaagccacg tgtataagat acacctgcaa aggcggcaca
+     2581 accccagtgc cacgttgtga gttggatagt tgtggaaaga gtcaaatggc tctcctcaag
+     2641 cgtagtcaac aaggggctga aggatgccca gaaggtaccc cattgtatgg gaatctgatc
+     2701 tggggcctcg gtgcacatgc tttacatgtg tttagtcgag gttaaaaaaa cgtctaggcc
+     2761 ccccgaacca cggggacgtg gttttccttt gaaaaacacg atgataagct taccggtcca
+     2821 ccatgattga acaagatgga ttgcacgcag gttctccggc cgcttgggtg gagaggctat
+     2881 tcggctatga ctgggcacaa cagacaatcg gctgctctga tgccgccgtg ttccggctgt
+     2941 cagcgcaggg gcgcccggtt ctttttgtca agaccgacct gtccggtgcc ctgaatgaac
+     3001 tgcaagacga ggcagcgcgg ctatcgtggc tggccacgac gggcgttcct tgcgcagctg
+     3061 tgctcgacgt tgtcactgaa gcgggaaggg actggctgct attgggcgaa gtgccggggc
+     3121 aggatctcct gtcatctcac cttgctcctg ccgagaaagt atccatcatg gctgatgcaa
+     3181 tgcggcggct gcatacgctt gatccggcta cctgcccatt cgaccaccaa gcgaaacatc
+     3241 gcatcgagcg agcacgtact cggatggaag ccggtcttgt cgatcaggat gatctggacg
+     3301 aagagcatca ggggctcgcg ccagccgaac tgttcgccag gctcaaggcg agcatgcccg
+     3361 acggcgagga tctcgtcgtg acccatggcg atgcctgctt gccgaatatc atggtggaaa
+     3421 atggccgctt ttctggattc atcgactgtg gccggctggg tgtggcggac cgctatcagg
+     3481 acatagcgtt ggctacccgt gatattgctg aagagcttgg cggcgaatgg gctgaccgct
+     3541 tcctcgtgct ttacggtatc gccgctcccg attcgcagcg catcgccttc tatcgccttc
+     3601 ttgacgagtt cttctgatgt acaagtaaag cggccgcgac tctagatcat aatcagccat
+     3661 accacatttg tagaggtttt acttgcttta aaaaacctcc cacacctccc cctgaacctg
+     3721 aaacataaaa tgaatgcaat tgttgttgtt tagtccctcc caattcgata tcaagcttat
+     3781 cgatcgatag atcctaatca acctctggat tacaaaattt gtgaaagatt gactggtatt
+     3841 cttaactatg ttgctccttt tacgctatgt ggatacgctg ctttaatgcc tttgtatcat
+     3901 gctattgctt cccgtatggc tttcattttc tcctccttgt ataaatcctg gttgctgtct
+     3961 ctttatgagg agttgtggcc cgttgtcagg caacgtggcg tggtgtgcac tgtgtttgct
+     4021 gacgcaaccc ccactggttg gggcattgcc accacctgtc agctcctttc cgggactttc
+     4081 gctttccccc tccctattgc cacggcggaa ctcatcgccg cctgccttgc ccgctgctgg
+     4141 acaggggctc ggctgttggg cactgacaat tccgtggtgt tgtcggggaa atcatcgtcc
+     4201 tttccttggc tgctcgcctg tgttgccacc tggattctgc gcgggacgtc cttctgctac
+     4261 gtcccttcgg ccctcaatcc agcggacctt ccttcccgcg gcctgctgcc ggctctgcgg
+     4321 cctcttccgc gtcttcgcct tcgccctcag acgagtcgga tctccctttg ggccgcctcc
+     4381 ccgcctgaga tcctttaaga ccaatgactt acaaggcagc tgtagatctt agccactttt
+     4441 taaaagaaaa ggggggactg gaagggctaa ttcactccca acgaagacaa gatctgcttt
+     4501 ttgcttgtac tgggtctctc tggttagacc agatctgagc ctgggagctc tctggctaac
+     4561 tagggaaccc actgcttaag cctcaataaa gcttgccttg agtgcttcaa gtagtgtgtg
+     4621 cccgtctgtt gtgtgactct ggtaactaga gatccctcag acccttttag tcagtgtgga
+     4681 aaatctctag cagtagtagt tcatgtcatc ttattattca gtatttataa cttgcaaaga
+     4741 aatgaatatc agagagtgag aggcccgggt taattaagga aagggctaga tcattcttga
+     4801 agacgaaagg gcctcgtgat acgcctattt ttataggtta atgtcatgat aataatggtt
+     4861 tcttagacgt caggtggcac ttttcgggga aatgtgcgcg gaacccctat ttgtttattt
+     4921 ttctaaatac attcaaatat gtatccgctc atgagacaat aaccctgata aatgcttcaa
+     4981 taatattgaa aaaggaagag tatgagtatt caacatttcc gtgtcgccct tattcccttt
+     5041 tttgcggcat tttgccttcc tgtttttgct cacccagaaa cgctggtgaa agtaaaagat
+     5101 gctgaagatc agttgggtgc acgagtgggt tacatcgaac tggatctcaa cagcggtaag
+     5161 atccttgaga gttttcgccc cgaagaacgt tttccaatga tgagcacttt taaagttctg
+     5221 ctatgtggcg cggtattatc ccgtgttgac gccgggcaag agcaactcgg tcgccgcata
+     5281 cactattctc agaatgactt ggttgagtac tcaccagtca cagaaaagca tcttacggat
+     5341 ggcatgacag taagagaatt atgcagtgct gccataacca tgagtgataa cactgcggcc
+     5401 aacttacttc tgacaacgat cggaggaccg aaggagctaa ccgctttttt gcacaacatg
+     5461 ggggatcatg taactcgcct tgatcgttgg gaaccggagc tgaatgaagc cataccaaac
+     5521 gacgagcgtg acaccacgat gcctgtagca atggcaacaa cgttgcgcaa actattaact
+     5581 ggcgaactac ttactctagc ttcccggcaa caattaatag actggatgga ggcggataaa
+     5641 gttgcaggac cacttctgcg ctcggccctt ccggctggct ggtttattgc tgataaatct
+     5701 ggagccggtg agcgtgggtc tcgcggtatc attgcagcac tggggccaga tggtaagccc
+     5761 tcccgtatcg tagttatcta cacgacgggg agtcaggcaa ctatggatga acgaaataga
+     5821 cagatcgctg agataggtgc ctcactgatt aagcattggt aactgtcaga ccaagtttac
+     5881 tcatatatac tttagattga tttaaaactt catttttaat ttaaaaggat ctaggtgaag
+     5941 atcctttttg ataatctcat gaccaaaatc ccttaacgtg agttttcgtt ccactgagcg
+     6001 tcagaccccg tagaaaagat caaaggatct tcttgagatc ctttttttct gcgcgtaatc
+     6061 tgctgcttgc aaacaaaaaa accaccgcta ccagcggtgg tttgtttgcc ggatcaagag
+     6121 ctaccaactc tttttccgaa ggtaactggc ttcagcagag cgcagatacc aaatactgtt
+     6181 cttctagtgt agccgtagtt aggccaccac ttcaagaact ctgtagcacc gcctacatac
+     6241 ctcgctctgc taatcctgtt accagtggct gctgccagtg gcgataagtc gtgtcttacc
+     6301 gggttggact caagacgata gttaccggat aaggcgcagc ggtcgggctg aacggggggt
+     6361 tcgtgcacac agcccagctt ggagcgaacg acctacaccg aactgagata cctacagcgt
+     6421 gagctatgag aaagcgccac gcttcccgaa gggagaaagg cggacaggta tccggtaagc
+     6481 ggcagggtcg gaacaggaga gcgcacgagg gagcttccag ggggaaacgc ctggtatctt
+     6541 tatagtcctg tcgggtttcg ccacctctga cttgagcgtc gatttttgtg atgctcgtca
+     6601 ggggggcgga gcctatggaa aaacgccagc aacgcggcct ttttacggtt cctggccttt
+     6661 tgctggcctt ttgctcacat gttctttcct gcgttatccc ctgattctgt ggataaccgt
+     6721 attaccgcct ttgagtgagc tgataccgct cgccgcagcc gaacgaccga gcgcagcgag
+     6781 tcagtgagcg aggaagcgga agagcgccca atacgcaaac cgcctctccc cgcgcgttgg
+     6841 ccgattcatt aatgcagcaa gctcatggct gactaatttt ttttatttat gcagaggccg
+     6901 aggccgcctc ggcctctgag ctattccaga agtagtgagg aggctttttt ggaggcctag
+     6961 gcttttgcaa aaagctcccc gtggcacgac aggtttcccg actggaaagc gggcagtgag
+     7021 cgcaacgcaa ttaatgtgag ttagctcact cattaggcac cccaggcttt acactttatg
+     7081 cttccggctc gtatgttgtg tggaattgtg agcggataac aatttcacac aggaaacagc
+     7141 tatgacatga ttacgaattt cacaaataaa gcattttttt cactgcattc tagttgtggt
+     7201 ttgtccaaac tcatcaatgt atcttatcat gtctggatca actggataac tcaagctaac
+     7261 caaaatcatc ccaaacttcc caccccatac cctattacca ctgccaatta cctgtggttt
+     7321 catttactct aaacctgtga ttcctctgaa ttattttcat tttaaagaaa ttgtatttgt
+     7381 taaatatgta ctacaaactt agtagttgga agggctaatt cactcccaaa gaagacaaga
+     7441 tatccttgat ctgtggatct accacacaca aggctacttc cctgattagc agaactacac
+     7501 accagggcca ggggtcagat atccactgac ctttggatgg tgctacaagc tagtaccagt
+     7561 tgagccagat aaggtagaag aggccaataa aggagagaac accagcttgt tacaccctgt
+     7621 gagcctgcat gggatggatg acccggagag agaagtgtta gagtggaggt ttgacagccg
+     7681 cctagcattt catcacgtgg cccgagagct gcatccggag tacttcaaga actgctgata
+     7741 tcgagcttgc tacaagggac tttccgctgg ggactttcca gggaggcgtg gcctgggcgg
+     7801 gactggggag tggcgagccc tcagatcctg catataagca gctgcttttt gcctgtactg
+     7861 ggtctctctg gttagaccag atctgagcct gggagctctc tggctaacta gggaacccac
+     7921 tgcttaagcc tcaataaagc ttgccttgag tgcttcaagt agtgtgtgcc cgtctgttgt
+     7981 gtgactctgg taactagaga tccctcagac ccttttagtc agtgtggaaa atctctagca
+     8041 gtggcgcccg aacagggact tgaaagcgaa agggaaacca gaggagctct ctcgacgcag
+     8101 gactcggctt gctgaagcgc gcacggcaag aggcgagggg cggcgactgg tgagtacgcc
+     8161 aaaaattttg actagcggag gctagaagga gagagatggg tgcgagagcg tcagtattaa
+     8221 gcgggggaga attagatcgc gatgggaaaa aattcggtta aggccagggg gaaagaaaaa
+     8281 atataaatta aaacatatag tatgggcaag cagggagcta gaacgattcg cagttaatcc
+     8341 tggcctgtta gaaacatcag aaggctgtag acaaatactg ggacagctac aaccatccct
+     8401 tcagacagga tcagaagaac ttagatcatt atataataca gtagcaaccc tctattgtgt
+     8461 gcatcaaagg atagagataa aagacaccaa ggaagcttta gacaagatag aggaagagca
+     8521 aaacaaaagt aagaccaccg cacagcaagc ggccggccgc tgatcttcag acctggagga
+     8581 ggagatatga gggacaattg gagaagtgaa ttatataaat ataaagtagt aaaaattgaa
+     8641 ccattaggag tagcacccac caaggcaaag agaagagtgg tgcagagaga aaaaagagca
+     8701 gtgggaatag gagctttgtt ccttgggttc ttgggagcag caggaagcac tatgggcgca
+     8761 gcgtcaatga cgctgacggt acaggccaga caattattgt ctggtatagt gcagcagcag
+     8821 aacaatttgc tgagggctat tgaggcgcaa cagcatctgt tgcaactcac agtctggggc
+     8881 atcaagcagc tccaggcaag aatcctggct gtggaaagat acctaaagga tcaacagctc
+     8941 ctggggattt ggggttgctc tggaaaactc atttgcacca ctgctgtgcc ttggaatgct
+     9001 agttggagta ataaatctct ggaacagatt tggaatcaca cgacctggat ggagtgggac
+     9061 agagaaatta acaattacac aagcttaata cactccttaa ttgaagaatc gcaaaaccag
+     9121 caagaaaaga atgaacaaga attattggaa ttagataaat gggcaagttt gtggaattgg
+     9181 tttaacataa caaattggct gtggtatata aaattattca taatgatagt aggaggcttg
+     9241 gtaggtttaa gaatagtttt tgctgtactt tctatagtga atagagttag gcagggatat
+     9301 tcaccattat cgtttcagac ccacctccca accccgaggg gacccgacag gcccgaagga
+     9361 atagaagaag aaggtggaga gagagacaga gacagatcca ttcgattagt gaacggatct
+     9421 cgacggtatc gccgaattca caaatggcag tattcatcca caattttaaa agaaaagggg
+     9481 ggattggggg gtacagtgca ggggaaagaa tagtagacat aatagcaaca gacatacaaa
+     9541 ctaaagaatt acaaaaacaa attacaaaaa ttcaaaattt tcgggtttat tacagggaca
+     9601 gcagagatcc agtttggact aggatccttt accactccct atcagtgata gagaaaagtg
+     9661 aaagtcgagt ttaccactcc ctatcagtga tagagaaaag tgaaagtcga gtttaccact
+     9721 ccctatcagt gatagagaaa agtgaaagtc gagtttacca ctccctatca gtgatagaga
+     9781 aaagtgaaag tcgagtttac cactccctat cagtgataga gaaaagtgaa agtcgagttt
+     9841 accactccct atcagtgata gagaaaagtg aaagtcgagt ttaccactcc ctatcagtga
+     9901 tagagaaaag tgaaagtcga gctcggtacc cgggtcgagg taggcgtgta cggtgggagg
+     9961 cctatataag cagagctcgt ttagtgaacc gtcagatcgc ctggagacgc catccacgct
+    10021 gttttgacct ccatagaaga caccgggacc gatccagcct ccgcggcccc gaactagtcc
+    10081 agtgtggtgg aattctgcag atatcaacaa gtttgtacaa aaaagcaggc tggcgccacc
+    10141 atggacaaga agtactccat tgggctcgct atcggtacca acagcgtcgg ctgggccgtc
+    10201 attacggacg agtacaaggt gccgagcaaa aaattcaaag ttctgggcaa taccgatcgc
+    10261 cacagcataa agaagaacct cattggagcc ctcctgttcg actccgggga gacggccgaa
+    10321 gccacgcggc tcaaaagaac agcacggcgc agatataccc gcagaaagaa tcggatctgc
+    10381 tacctgcagg agatctttag taatgagatg gctaaggtgg atgactcttt cttccatagg
+    10441 ctggaggagt cctttttggt ggaggaggat aaaaagcacg agcgccaccc aatctttggc
+    10501 aatatcgtgg acgaggtggc gtaccatgaa aagtacccaa ccatatatca tctgaggaag
+    10561 aagctggtag acagtactga taaggctgac ttgcggttga tctatctcgc gctggcgcac
+    10621 atgatcaaat ttcggggaca cttcctcatc gagggggacc tgaacccaga caacagcgat
+    10681 gtcgacaaac tctttatcca actggttcag acttacaatc agcttttcga ggagaacccg
+    10741 atcaacgcat ccggcgttga cgccaaagca atcctgagcg ctaggctgtc caaatcccgg
+    10801 cggctcgaaa acctcatcgc acagctccct ggggagaaga agaacggcct gtttggtaat
+    10861 cttatcgccc tgtcactcgg gctgaccccc aactttaaat ctaacttcga cctggccgaa
+    10921 gatgccaagc tgcaactgag caaagacacc tacgatgatg atctcgacaa tctgctggcc
+    10981 cagatcggcg accagtacgc agaccttttt ttggcggcaa agaacctgtc agacgccatt
+    11041 ctgctgagtg atattctgcg agtgaacacg gagatcacca aagctccgct gagcgctagt
+    11101 atgatcaagc gctatgatga gcaccaccaa gacttgactt tgctgaaggc ccttgtcaga
+    11161 cagcaactgc ctgagaagta caaggaaatt ttcttcgatc agtctaaaaa tggctacgcc
+    11221 ggatacattg acggcggagc aagccaggag gaattttaca aatttattaa gcccatcttg
+    11281 gaaaaaatgg acggcaccga ggagctgctg gtaaagctga acagagaaga tctgttgcgc
+    11341 aaacagcgca ctttcgacaa tggaagcatc ccccaccaga ttcacctggg cgaactgcac
+    11401 gctatcctca ggcggcaaga ggatttctac ccctttttga aagataacag ggaaaagatt
+    11461 gagaaaatcc tcacatttcg gataccctac tatgtaggcc ccctcgctcg gggaaattcc
+    11521 agattcgcgt ggatgactcg caaatcagaa gagaccatca ctccctggaa cttcgaggaa
+    11581 gtcgtggata agggggcctc tgcccagtcc ttcatcgaaa ggatgactaa ctttgataaa
+    11641 aatctgccta acgaaaaggt gcttcctaaa cactctctgc tgtacgagta cttcacagtt
+    11701 tataacgagc tcaccaaggt caaatacgtc acagaaggga tgagaaagcc agcattcctg
+    11761 tctggagagc agaagaaagc tatcgtggac ctcctcttca agacgaaccg gaaagttacc
+    11821 gtgaaacagc tcaaagaaga ctatttcaaa aagattgaat gtttcgactc tgttgaaatc
+    11881 agcggagtgg aggatcgctt caacgcatcc ctgggaacgt atcacgatct cctgaaaatc
+    11941 attaaagaca aggacttcct ggacaatgag gagaacgagg acattcttga ggacattgtc
+    12001 ctcaccctta cgttgtttga agatagggag atgattgaag aacgcttgaa aacttacgct
+    12061 catctcttcg acgacaaagt catgaaacag ctcaagagac gccgatatac aggatggggg
+    12121 cggctgtcaa gaaaactgat caatggcatc cgagacaagc agagtggaaa gacaatcctg
+    12181 gattttctta agtccgatgg atttgccaac cggaacttca tgcagttgat ccatgatgac
+    12241 tctctcacct ttaaggagga catccagaaa gcacaagttt ctggccaggg ggacagtctt
+    12301 cacgagcaca tcgctaatct tgcaggtagc ccagctatca aaaagggaat actgcagacc
+    12361 gttaaggtcg tggatgaact cgtcaaagta atgggaaggc ataagcccga gaatatcgtt
+    12421 atcgagatgg cccgagagaa ccaaactacc cagaagggac agaagaacag tagggaaagg
+    12481 atgaagagga ttgaagaggg tataaaagaa ctggggtccc aaatccttaa ggaacaccca
+    12541 gttgaaaaca cccagcttca gaatgagaag ctctacctgt actacctgca gaacggcagg
+    12601 gacatgtacg tggatcagga actggacatc aaccggttgt ccgactacga cgtggatgct
+    12661 atcgtgcccc aaagctttct caaagatgat tctattgata ataaagtgtt gacaagatcc
+    12721 gataaaaata gagggaagag tgataacgtc ccctcagaag aagttgtcaa gaaaatgaaa
+    12781 aattattggc ggcagctgct gaacgccaaa ctgatcacac aacggaagtt cgataatctg
+    12841 actaaggctg aacgaggtgg cctgtctgag ttggataaag ccggcttcat caaaaggcag
+    12901 cttgttgaga cacgccagat caccaagcac gtggcccaaa ttctcgattc acgcatgaac
+    12961 accaagtacg atgaaaatga caaactgatt cgagaggtga aagttattac tctgaagtct
+    13021 aagctggtct cagatttcag aaaggacttt cagttttata aggtgagaga gatcaacaat
+    13081 taccaccatg cgcatgatgc ctacctgaat gcagtggtag gcactgcact tatcaaaaaa
+    13141 tatcccaagc tggaatctga atttgtttac ggagactata aagtgtacga tgttaggaaa
+    13201 atgatcgcaa agtctgagca ggaaataggc aaggccaccg ctaagtactt cttttacagc
+    13261 aatattatga attttttcaa gaccgagatt acactggcca atggagagat tcggaagcga
+    13321 ccacttatcg aaacaaacgg agaaacagga gaaatcgtgt gggacaaggg tagggatttc
+    13381 gcgacagtcc gcaaggtcct gtccatgccg caggtgaaca tcgttaaaaa gaccgaagta
+    13441 cagaccggag gcttctccaa ggaaagtatc ctcccgaaaa ggaacagcga caagctgatc
+    13501 gcacgcaaaa aagattggga ccccaagaaa tacggcggat tcgattctcc tacagtcgct
+    13561 tacagtgtac tggttgtggc caaagtggag aaagggaagt ctaaaaaact caaaagcgtc
+    13621 aaggaactgc tgggcatcac aatcatggag cgatccagct tcgagaaaaa ccccatcgac
+    13681 tttctcgaag cgaaaggata taaagaggtc aaaaaagacc tcatcattaa gctgcccaag
+    13741 tactctctct ttgagcttga aaacggccgg aaacgaatgc tcgctagtgc gggcgagctg
+    13801 cagaaaggta acgagctggc actgccctct aaatacgtta atttcttgta tctggccagc
+    13861 cactatgaaa agctcaaagg gtctcccgaa gataatgagc agaagcagct gttcgtggaa
+    13921 caacacaaac actaccttga tgagatcatc gagcaaataa gcgagttctc caaaagagtg
+    13981 atcctcgccg acgctaacct cgataaggtg ctttctgctt acaataagca cagggataag
+    14041 cccatcaggg agcaggcaga aaacattatc cacttgttta ctctgaccaa cttgggcgcg
+    14101 cctgcagcct tcaagtactt cgacaccacc atagacagaa agcggtacac ctctacaaag
+    14161 gaggtcctgg acgccacact gattcatcag tcaattacgg ggctctatga aacaagaatc
+    14221 gacctctctc agctcggtgg agacggcacc ggcgggccca agaagaagag gaaggtatac
+    14281 ccatacgatg ttcctgacta tgcgggctat ccctatgacg tcccggacta tgcaggatcg
+    14341 tatccttatg acgttccaga ttacgctgga tccatggacg cgaaatcact tacggcatgg
+    14401 tcgagaacac tggttacgtt caaggacgtg tttgtggact ttacacgtga ggagtggaaa
+    14461 ttgctggata ctgcgcaaca aattgtgtat cgaaatgtca tgcttgagaa ttacaagaac
+    14521 ctcgtcagtc tcggatacca gttgacgaaa ccggatgtga tccttaggct cgaaaagggg
+    14581 gaagaacctt ggctggtata attcgaatcc ggataagcgg ccgcctcgag atatctagac
+    14641 ccagctttc
+//

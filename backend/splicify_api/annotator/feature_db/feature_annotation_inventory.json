@@ -1,0 +1,173 @@
+{
+  "_meta": {
+    "report": "Feature Annotation Inventory",
+    "plasmids_processed": 9591,
+    "anchors_count": 42568,
+    "short_candidates_count": 15345
+  },
+  "counts": {
+    "by_category": {
+      "CDS_RESISTANCE": 11718,
+      "CDS_PUTATIVE": 6662,
+      "PROMOTER_UNKNOWN": 5856,
+      "UNKNOWN": 5062,
+      "ORI_BACTERIAL": 3768,
+      "CDS_REPORTER": 3709,
+      "CDS_UNKNOWN": 1443,
+      "PROMOTER_POL2": 1436,
+      "PROMOTER_POL3": 567,
+      "POLYA_SIGNAL": 525,
+      "ORI_PHAGE": 356,
+      "INTRON_IME": 322,
+      "VIRAL_ELEMENT_LENTI": 319,
+      "PROMOTER_BACTERIAL": 222,
+      "TERMINATOR_BACTERIAL": 183,
+      "CDS_NUCLEASE": 173,
+      "MISC_SIGNAL": 115,
+      "VIRAL_ELEMENT_AAV": 78,
+      "GRNA_SCAFFOLD": 48,
+      "ORI_EUK": 4,
+      "VIRAL_ELEMENT_OTHER": 2
+    },
+    "by_feature_type": {
+      "CDS": 20578,
+      "regulatory": 8923,
+      "misc_feature": 8052,
+      "rep_origin": 4596,
+      "intron": 371,
+      "misc_RNA": 48
+    },
+    "top_raw_labels": [
+      {
+        "raw_label": "CmR",
+        "count": 3804
+      },
+      {
+        "raw_label": "AmpR",
+        "count": 3515
+      },
+      {
+        "raw_label": "KanR",
+        "count": 1847
+      },
+      {
+        "raw_label": "EGFP",
+        "count": 1757
+      },
+      {
+        "raw_label": "ColE1_pUC",
+        "count": 710
+      },
+      {
+        "raw_label": "TetR",
+        "count": 601
+      },
+      {
+        "raw_label": "LacZ",
+        "count": 585
+      },
+      {
+        "raw_label": "Derived",
+        "count": 584
+      },
+      {
+        "raw_label": "NeoR",
+        "count": 555
+      },
+      {
+        "raw_label": "Regulatory_Class",
+        "count": 540
+      },
+      {
+        "raw_label": "rep_origin",
+        "count": 529
+      },
+      {
+        "raw_label": "TRE3G",
+        "count": 526
+      },
+      {
+        "raw_label": "Unlabeled",
+        "count": 481
+      },
+      {
+        "raw_label": "p15A",
+        "count": 460
+      },
+      {
+        "raw_label": "LACI_ECOLI_Lactose_operon_repressor_OS_Escherichia_coli__strain_K12__OX_83333_GN",
+        "count": 431
+      },
+      {
+        "raw_label": "CMV_enhancer_promoter",
+        "count": 412
+      },
+      {
+        "raw_label": "H1",
+        "count": 379
+      },
+      {
+        "raw_label": "SpecR",
+        "count": 378
+      },
+      {
+        "raw_label": "Pbr322",
+        "count": 377
+      },
+      {
+        "raw_label": "SV40_late_polyA",
+        "count": 365
+      },
+      {
+        "raw_label": "f1_ori",
+        "count": 329
+      },
+      {
+        "raw_label": "CCDB3_ECOLX_Toxin_CcdB_OS_Escherichia_coli_OX_562_GN_ccdB_PE_3_SV_2",
+        "count": 328
+      },
+      {
+        "raw_label": "Cole1",
+        "count": 280
+      },
+      {
+        "raw_label": "Camv",
+        "count": 271
+      },
+      {
+        "raw_label": "YFP",
+        "count": 268
+      },
+      {
+        "raw_label": "GenR",
+        "count": 264
+      },
+      {
+        "raw_label": "Luc2",
+        "count": 262
+      },
+      {
+        "raw_label": "Similar",
+        "count": 261
+      },
+      {
+        "raw_label": "HygroR",
+        "count": 260
+      },
+      {
+        "raw_label": "Nos",
+        "count": 252
+      }
+    ]
+  },
+  "classification": {
+    "cds_unknown_before": 8949,
+    "cds_unknown_after": 1443,
+    "cds_classified": 7506,
+    "unknown_before": 5426,
+    "unknown_after": 5062,
+    "promoter_unknown_before": 6327,
+    "promoter_unknown_after": 5856,
+    "other_classified": 835
+  }
+}

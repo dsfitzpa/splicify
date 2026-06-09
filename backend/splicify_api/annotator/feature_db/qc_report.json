@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-12",
+  "overall_status": "FAIL",
+  "total_canonical_features": 19697,
+  "checks": [
+    {
+      "check": "tier_distribution",
+      "status": "PASS",
+      "detail": "Gold+Gold_seed=243.",
+      "tier_counts": {
+        "quarantine": 16605,
+        "silver": 2849,
+        "gold": 240,
+        "gold_seed": 3
+      }
+    },
+    {
+      "check": "biosecurity",
+      "status": "SKIP",
+      "enabled": false,
+      "anchors_screened": 0,
+      "anchors_clear": 0,
+      "anchors_flagged": 0,
+      "anchors_errors": 0,
+      "anchors_uncertain": 0,
+      "motifs_screened": 0,
+      "motifs_clear": 0,
+      "motifs_flagged": 0,
+      "motifs_errors": 0,
+      "motifs_uncertain": 0,
+      "total_excluded": 0
+    },
+    {
+      "check": "length_distribution",
+      "status": "PASS",
+      "total_clusters": 38390,
+      "high_cv_count": 0,
+      "high_cv_examples": []
+    },
+    {
+      "check": "category_sanity",
+      "status": "WARN",
+      "issue_count": 109,
+      "issues": [
+        "CDS_BLA_TEM1__VAR145 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR47 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR48 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR62 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR63 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR64 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR82 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR88 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR182 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)",
+        "CDS_CMR_CAT__VAR184 [CDS_RESISTANCE]: cds_orf_check: no_start_codon_at_position_0 (WARN)"
+      ]
+    },
+    {
+      "check": "boundary_drift",
+      "status": "WARN",
+      "count": 126,
+      "features": [
+        "CDS_BLA_TEM1 [CDS_RESISTANCE] tier=silver",
+        "CDS_BLA_TEM1__VAR4 [CDS_RESISTANCE] tier=silver",
+        "CDS_CMR_CAT__VAR7 [CDS_RESISTANCE] tier=quarantine",
+        "CDS_CMR_CAT__VAR74 [CDS_RESISTANCE] tier=quarantine",
+        "CDS_CMR_CAT__VAR92 [CDS_RESISTANCE] tier=quarantine",
+        "CDS_CMR_CAT__VAR237 [CDS_RESISTANCE] tier=quarantine",
+        "CDS_CMR_CAT__VAR364 [CDS_RESISTANCE] tier=quarantine",
+        "CDS_CMR_CAT__VAR409 [CDS_RESISTANCE] tier=quarantine",
+        "CDS_GENR_AAC3__VAR6 [CDS_RESISTANCE] tier=quarantine",
+        "CDS_HYGROR_HPH__VAR4 [CDS_RESISTANCE] tier=silver"
+      ]
+    },
+    {
+      "check": "self_hit",
+      "status": "PASS",
+      "checked": 405,
+      "failures": 0,
+      "warnings": 0,
+      "weak_examples": [
+        "SPLICIFY_INTRON_IME_UBIQUITIN_CL_INTRON_IME_015 (89.8% id, 100.0% cov)",
+        "SPLICIFY_INTRON_IME_UBIQUITIN_CL_INTRON_IME_015 (89.8% id, 100.0% cov)",
+        "SPLICIFY_ORI_BACTERIAL_2MICRON_CL_ORI_BAC_971ec749 (92.0% id, 100.0% cov)",
+        "SPLICIFY_ORI_BACTERIAL_2MICRON_CL_ORI_BAC_971ec749 (92.0% id, 100.0% cov)",
+        "SPLICIFY_ORI_BACTERIAL_2MICRON_CL_ORI_BAC_6d36444c (89.8% id, 100.0% cov)",
+        "SPLICIFY_ORI_BACTERIAL_2MICRON_CL_ORI_BAC_6d36444c (89.8% id, 100.0% cov)",
+        "SPLICIFY_ORI_BACTERIAL_CEREVISIAE_CL_ORI__1b84b95b (92.0% id, 100.0% cov)",
+        "SPLICIFY_ORI_BACTERIAL_CEREVISIAE_CL_ORI__1b84b95b (92.0% id, 100.0% cov)",
+        "SPLICIFY_ORI_BACTERIAL_EPSTEIN_CL_ORI_BAC_0fe97836 (89.4% id, 100.0% cov)",
+        "SPLICIFY_ORI_BACTERIAL_EPSTEIN_CL_ORI_BAC_0fe97836 (89.4% id, 100.0% cov)"
+      ]
+    },
+    {
+      "check": "cross_collision",
+      "status": "FAIL",
+      "collision_count": 113,
+      "affected_sequences": 117,
+      "fraction": 0.289,
+      "collisions": [
+        "CDS_RESISTANCE_DFRA__CL_CDS_RESISTANCE_186 <-> CDS_RESISTANCE_DFRA__CL_CDS_RESISTANCE_488 (99.8% id, qcov=1.00, scov=1.00)",
+        "GRNA_SCAFFOLD_RNAII__CL_GRNA_SCAFFOLD_005 <-> GRNA_SCAFFOLD_RNAII__CL_GRNA_SCAFFOLD_006 (99.1% id, qcov=1.00, scov=1.00)",
+        "INTRON_IME_ACTIN__CL_INTRON_IME_018 <-> INTRON_IME_ACTIN__CL_INTRON_IME_020 (99.8% id, qcov=1.00, scov=1.00)",
+        "INTRON_IME_ACTIN__CL_INTRON_IME_018 <-> INTRON_IME_ACTIN__CL_INTRON_IME_019 (99.6% id, qcov=1.00, scov=1.00)",
+        "INTRON_IME_ACTIN__CL_INTRON_IME_019 <-> INTRON_IME_ACTIN__CL_INTRON_IME_020 (99.8% id, qcov=1.00, scov=1.00)",
+        "INTRON_IME_CHSA__CL_INTRON_IME_039 <-> INTRON_IME_CHSA__CL_INTRON_IME_040 (99.9% id, qcov=1.00, scov=1.00)",
+        "INTRON_IME_FLAVERIA__CL_INTRON_IME_012 <-> INTRON_IME_PDK__CL_INTRON_IME_042 (99.7% id, qcov=0.96, scov=1.00)",
+        "INTRON_IME_HX1__CL_INTRON_IME_022 <-> INTRON_IME_HX1__CL_INTRON_IME_027 (99.5% id, qcov=1.00, scov=1.00)",
+        "INTRON_IME_HX1__CL_INTRON_IME_022 <-> INTRON_IME_HX1__CL_INTRON_IME_025 (99.5% id, qcov=1.00, scov=0.99)",
+        "INTRON_IME_HX1__CL_INTRON_IME_025 <-> INTRON_IME_HX1__CL_INTRON_IME_027 (100.0% id, qcov=0.99, scov=1.00)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+# Splicify backend — packaging metadata for PR #1 (splicify-core extraction).
+#
+# Source of truth for runtime dependencies. Verified against the live venv at
+# the live deployment venv (pip freeze, 2026-06-05). Patch-level pinning
+# (>=major.minor, <next-major) so a future dependency update is a deliberate
+# PR, not a `pip install` surprise.
+#
+# Heavy ML / SBOL / dev deps live in optional extras so a contributor doing
+# annotation-only work doesn't pull torch + CUDA toolchain.
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splicify"
+version = "0.1.0"
+description = "Splicify — bioinformatics tools for molecular biology cloning + CRISPR guide design"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10,<3.13"  # live venv runs 3.12.3
+authors = [{ name = "dsfitzpa", email = "dsfitzpa@gmail.com" }]
+keywords = [
+    "bioinformatics",
+    "molecular-biology",
+    "plasmid",
+    "crispr",
+    "cloning",
+    "guide-rna",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+# Core runtime: everything required to start the FastAPI app and run the
+# deterministic annotation + cloning pipelines. NO torch, NO sentence-transformers,
+# NO SBOL — those are extras.
+dependencies = [
+    # LLM clients
+    "anthropic>=0.96,<1.0",
+    "openai>=2.0,<3.0",         # Used somewhere — flagged for audit in PR #2
+
+    # Web framework
+    "fastapi>=0.135,<1.0",
+    "uvicorn[standard]>=0.42,<1.0",
+    "starlette>=1.0,<2.0",
+    "python-multipart>=0.0.22,<1.0",
+    "python-dotenv>=1.2,<2.0",
+
+    # Data validation
+    "pydantic>=2.12,<3.0",
+
+    # HTTP clients (external_search.py — NCBI fetch)
+    "httpx>=0.28,<1.0",
+    "httptools>=0.7,<1.0",
+    "requests>=2.33,<3.0",
+
+    # Biology
+    "biopython>=1.86,<2.0",
+    "primer3-py>=2.3,<3.0",
+
+    # Numerical (annotation pipeline)
+    "numpy>=2.4,<3.0",
+    "scipy>=1.17,<2.0",
+    "scikit-learn>=1.8,<2.0",
+    "regex>=2026.4,<2027.0",
+
+    # Persistence
+    "redis>=5.0,<6.0",          # agent_v2 SessionState; freeze did not show — verify
+
+    # Config
+    "pyyaml>=6.0,<7.0",
+
+    # Data frames (used by feature_annotator + pegrna_designer)
+    "pandas>=2.2,<3.0",
+
+    # HTML parsing (external_search NCBI fallback)
+    "beautifulsoup4>=4.12,<5.0",
+
+    # SBOL3 round-trip (sbol_io.py — loaded by sbol_router on FastAPI startup)
+    "sbol3>=1.2,<2.0",
+    "rdflib>=6.3,<8.0",
+    "owlrl>=6.0,<7.0",
+    "pyshacl>=0.28,<1.0",
+    "isodate>=0.6,<1.0",
+]
+
+[project.optional-dependencies]
+
+# Plasmid LM / retrieval / embeddings (Phase 2 of plasmid_lm/)
+plasmid-lm = [
+    "torch>=2.11,<3.0",
+    "transformers>=5.5,<6.0",
+    "sentence-transformers>=5.4,<6.0",
+    "tokenizers>=0.22,<1.0",
+    "safetensors>=0.7,<1.0",
+    "hnswlib>=0.8,<1.0",
+    "huggingface_hub>=1.11,<2.0",
+    "networkx>=3.6,<4.0",
+    "joblib>=1.5,<2.0",
+]
+
+# Dev / CI
+dev = [
+    "pytest>=8.0,<9.0",
+    "pytest-asyncio>=0.23,<1.0",
+    "ruff>=0.4,<1.0",
+    "mypy>=1.10,<2.0",
+]
+
+# Convenience meta-extra: install everything
+all = ["splicify[plasmid-lm,sbol,dev]"]
+
+[project.urls]
+Homepage = "https://github.com/dsfitzpa/splicify"
+Documentation = "https://github.com/dsfitzpa/splicify/blob/main/docs/ARCHITECTURE.md"
+Issues = "https://github.com/dsfitzpa/splicify/issues"
+Changelog = "https://github.com/dsfitzpa/splicify/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["splicify_api*"]
+
+[tool.setuptools.package-data]
+splicify_api = [
+    "py.typed",
+    "prompts/*.md",
+    "feature_db_data/_test_fixtures/**",  # tiny smoke-test set only
+]
+
+# ---- Notes for review ----
+#
+# DROPPED from the live venv (intentional for PR #1):
+#   - psycopg, psycopg-binary  — DATABASE_URL is vestigial (0 live consumers
+#     across the whole repo; see grep hit list 2026-06-05).
+#   - cuda-*, nvidia-*  — transitive from torch's GPU build; pip resolves on
+#     install if torch CUDA wheel is selected. Don't pin manually.
+#   - pytest (in [dev] extra), html5lib, webencodings, networkx (in [plasmid-lm]).
+#
+# UNCERTAIN — confirm before merge:
+#   - redis: not in pip freeze but agent_v2/memory.py imports it. Possible
+#     freeze ran against a venv that diverged from the runtime venv. Verify
+#     with `python -c "import redis; print(redis.__version__)"` in the live
+#     venv before merging.
+#   - openai: still listed in the venv even though the live agent path is
+#     Anthropic-only. Likely vestigial from a pre-Sonnet branch. Audit in PR #2.
+#
+# PUNTED to a follow-up PR (not blocking PR #1):
+#   - Split into splicify-annotate / splicify-cloning / splicify-agent-tools.
+#     Currently one wheel, one import name.
+#   - PyPI publish. v0.1.0 is install-from-source only.

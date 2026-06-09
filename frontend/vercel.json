@@ -1,0 +1,9 @@
+{
+  "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/agent_v2/:path*",
+      "destination": "https://YOUR-SPLICIFY-BACKEND.example.com/agent_v2/:path*"
+    }
+  ]
+}

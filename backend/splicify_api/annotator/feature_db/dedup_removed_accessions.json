@@ -1,0 +1,1425 @@
+{
+  "n_input": 9768,
+  "n_output": 9591,
+  "n_removed": 177,
+  "threshold": 0.98,
+  "exact_only": true,
+  "removed": [
+    {
+      "removed_accession": "PC330283",
+      "kept_accession": "PU739415",
+      "removed_length": 5652,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 164 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "OF043696",
+      "kept_accession": "PU739415",
+      "removed_length": 5652,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 164 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PD298340",
+      "kept_accession": "PU739413",
+      "removed_length": 4540,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 162 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PH016778",
+      "kept_accession": "PU739413",
+      "removed_length": 4540,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 162 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PC430393",
+      "kept_accession": "PU739413",
+      "removed_length": 4540,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 162 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PC421179",
+      "kept_accession": "PU739413",
+      "removed_length": 4540,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 162 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PC395985",
+      "kept_accession": "PU739413",
+      "removed_length": 4540,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 162 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PC330281",
+      "kept_accession": "PU739413",
+      "removed_length": 4540,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 162 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "OF043694",
+      "kept_accession": "PU739413",
+      "removed_length": 4540,
+      "kept_features": 2,
+      "submitter_key": "patent  us 12076388 b2 162 03 sep 2024  aramis biotechnologies inc   quebec city  ca | lavoie p  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PF336802",
+      "kept_accession": "PI215902",
+      "removed_length": 2579,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2024504355 a 12 31 jan 2024  nanjing genscript biotech co ltd | ye l   sun h   gao q  and chen j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PF336800",
+      "kept_accession": "PI215900",
+      "removed_length": 1997,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2024504355 a 10 31 jan 2024  nanjing genscript biotech co ltd | ye l   sun h   gao q  and chen j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PF336799",
+      "kept_accession": "PI215899",
+      "removed_length": 1885,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2024504355 a 9 31 jan 2024  nanjing genscript biotech co ltd | ye l   sun h   gao q  and chen j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PF336796",
+      "kept_accession": "PI215896",
+      "removed_length": 1468,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2024504355 a 6 31 jan 2024  nanjing genscript biotech co ltd | ye l   sun h   gao q  and chen j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PF336793",
+      "kept_accession": "PI215893",
+      "removed_length": 1356,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2024504355 a 3 31 jan 2024  nanjing genscript biotech co ltd | ye l   sun h   gao q  and chen j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PF336791",
+      "kept_accession": "PI215891",
+      "removed_length": 2593,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2024504355 a 1 31 jan 2024  nanjing genscript biotech co ltd | ye l   sun h   gao q  and chen j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PG223385",
+      "kept_accession": "X06404",
+      "removed_length": 3914,
+      "kept_features": 6,
+      "submitter_key": "submitted  15 dec 1987  taylor l a   calgene  inc   1920 fifth st   davis  ca  05616 | taylor l a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM137583",
+      "kept_accession": "X06404",
+      "removed_length": 3914,
+      "kept_features": 6,
+      "submitter_key": "submitted  15 dec 1987  taylor l a   calgene  inc   1920 fifth st   davis  ca  05616 | taylor l a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "FB341672",
+      "kept_accession": "X06404",
+      "removed_length": 3914,
+      "kept_features": 6,
+      "submitter_key": "submitted  15 dec 1987  taylor l a   calgene  inc   1920 fifth st   davis  ca  05616 | taylor l a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS467570",
+      "kept_accession": "X06404",
+      "removed_length": 3914,
+      "kept_features": 6,
+      "submitter_key": "submitted  15 dec 1987  taylor l a   calgene  inc   1920 fifth st   davis  ca  05616 | taylor l a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS452782",
+      "kept_accession": "X06404",
+      "removed_length": 3914,
+      "kept_features": 6,
+      "submitter_key": "submitted  15 dec 1987  taylor l a   calgene  inc   1920 fifth st   davis  ca  05616 | taylor l a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM137573",
+      "kept_accession": "PG223384",
+      "removed_length": 4586,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022554175 a 104 28 dec 2022  checkmate pharmaceuticals inc | morris a j   krieg a m  and walters e d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNPKK223V",
+      "kept_accession": "PG223384",
+      "removed_length": 4586,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022554175 a 104 28 dec 2022  checkmate pharmaceuticals inc | morris a j   krieg a m  and walters e d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "FB341662",
+      "kept_accession": "PG223384",
+      "removed_length": 4586,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022554175 a 104 28 dec 2022  checkmate pharmaceuticals inc | morris a j   krieg a m  and walters e d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS467560",
+      "kept_accession": "PG223384",
+      "removed_length": 4586,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022554175 a 104 28 dec 2022  checkmate pharmaceuticals inc | morris a j   krieg a m  and walters e d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS452772",
+      "kept_accession": "PG223384",
+      "removed_length": 4586,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022554175 a 104 28 dec 2022  checkmate pharmaceuticals inc | morris a j   krieg a m  and walters e d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PH079085",
+      "kept_accession": "Y14837",
+      "removed_length": 2710,
+      "kept_features": 11,
+      "submitter_key": "submitted  16 sep 1997  a  markauskas  fermentas ab  graiciuno 8  vilnius 2028  lithuania | markauskas a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PC353247",
+      "kept_accession": "PH242186",
+      "removed_length": 5502,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022534464 a 59 01 aug 2022  mitsubishi tanabe pharma corporation medicago inc  national university corporation nara institute of science and technology | lavoie p   yamasaki s   d aoust m  and kato k",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MP883923",
+      "kept_accession": "PH242186",
+      "removed_length": 5502,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022534464 a 59 01 aug 2022  mitsubishi tanabe pharma corporation medicago inc  national university corporation nara institute of science and technology | lavoie p   yamasaki s   d aoust m  and kato k",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PC353246",
+      "kept_accession": "PH242185",
+      "removed_length": 6156,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022534464 a 58 01 aug 2022  mitsubishi tanabe pharma corporation medicago inc  national university corporation nara institute of science and technology | lavoie p   yamasaki s   d aoust m  and kato k",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MP883922",
+      "kept_accession": "PH242185",
+      "removed_length": 6156,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022534464 a 58 01 aug 2022  mitsubishi tanabe pharma corporation medicago inc  national university corporation nara institute of science and technology | lavoie p   yamasaki s   d aoust m  and kato k",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PC353192",
+      "kept_accession": "PH242183",
+      "removed_length": 4337,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022534464 a 56 01 aug 2022  mitsubishi tanabe pharma corporation medicago inc  national university corporation nara institute of science and technology | lavoie p   yamasaki s   d aoust m  and kato k",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MP883868",
+      "kept_accession": "PH242183",
+      "removed_length": 4337,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2022534464 a 56 01 aug 2022  mitsubishi tanabe pharma corporation medicago inc  national university corporation nara institute of science and technology | lavoie p   yamasaki s   d aoust m  and kato k",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PD307440",
+      "kept_accession": "FJ376737",
+      "removed_length": 7350,
+      "kept_features": 10,
+      "submitter_key": "submitted  10 oct 2008  scientific communication  promega corporation  2800 woods hollow rd   madison  wi 53711  usa | garvin d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PD307438",
+      "kept_accession": "FJ376737",
+      "removed_length": 7350,
+      "kept_features": 10,
+      "submitter_key": "submitted  10 oct 2008  scientific communication  promega corporation  2800 woods hollow rd   madison  wi 53711  usa | garvin d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "PC395989",
+      "kept_accession": "PC430397",
+      "removed_length": 6360,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2021528971 a 44 28 oct 2021  medicago inc | couture m   lavoie p   lorin a   doucet a  and d aoust m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MP979246",
+      "kept_accession": "PC397217",
+      "removed_length": 1749,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2021522813 a 1 02 sep 2021  spark therapeutics inc | qu g   phichith d  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MT434691",
+      "kept_accession": "OR479081",
+      "removed_length": 10639,
+      "kept_features": 14,
+      "submitter_key": "submitted  24 aug 2023  physiology and cell biology  leibniz institute of plant genetics and crop plant research  ipk   correns str  3  stadt seeland  ot gatersleben 06466  germany | budhagatapalli n   hiekel s   hertig c w  and kumlehn j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "OR187788",
+      "kept_accession": "OR187794",
+      "removed_length": 4472,
+      "kept_features": 13,
+      "submitter_key": "submitted  22 jun 2023  bioengineering  georgia institute of technology  950 atlantic dr nw suite 1  atlanta  ga 30332  usa | short a e  and kim d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "OF243911",
+      "kept_accession": "OF243976",
+      "removed_length": 6240,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020210025627 a 66 09 mar 2021  medicago inc | lavoie p   lorin a   doucet a   daoust m  and couture m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "OF243907",
+      "kept_accession": "OF243972",
+      "removed_length": 4480,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020210025627 a 62 09 mar 2021  medicago inc | lavoie p   lorin a   doucet a   daoust m  and couture m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "OF242375",
+      "kept_accession": "OF243972",
+      "removed_length": 4480,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020210025627 a 62 09 mar 2021  medicago inc | lavoie p   lorin a   doucet a   daoust m  and couture m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MW820848",
+      "kept_accession": "MW820853",
+      "removed_length": 7435,
+      "kept_features": 16,
+      "submitter_key": "submitted  23 mar 2021  synthetic biology   biooenergy  j  craig venter instititute  4120 capricorn lane  la jolla  ca 92037  usa | ding l",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MG948138",
+      "kept_accession": "MG948139",
+      "removed_length": 5162,
+      "kept_features": 12,
+      "submitter_key": "submitted  09 feb 2018  biology  utah state university  5305 old main hill  logan  ut 84322 5305  usa | welker d l",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LY570212",
+      "kept_accession": "LY720770",
+      "removed_length": 7222,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020190089123 a 9 30 jul 2019  korea institute of science and technology iucf hyu  industry university cooperation foundation hanyang university | yi h j   lim j a   lee k y  and lee y j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LY518039",
+      "kept_accession": "LY720770",
+      "removed_length": 7222,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020190089123 a 9 30 jul 2019  korea institute of science and technology iucf hyu  industry university cooperation foundation hanyang university | yi h j   lim j a   lee k y  and lee y j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LY269834",
+      "kept_accession": "LY720770",
+      "removed_length": 7222,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020190089123 a 9 30 jul 2019  korea institute of science and technology iucf hyu  industry university cooperation foundation hanyang university | yi h j   lim j a   lee k y  and lee y j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LG150270",
+      "kept_accession": "LY720770",
+      "removed_length": 7222,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020190089123 a 9 30 jul 2019  korea institute of science and technology iucf hyu  industry university cooperation foundation hanyang university | yi h j   lim j a   lee k y  and lee y j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LG150265",
+      "kept_accession": "LY720770",
+      "removed_length": 7222,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020190089123 a 9 30 jul 2019  korea institute of science and technology iucf hyu  industry university cooperation foundation hanyang university | yi h j   lim j a   lee k y  and lee y j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LG150258",
+      "kept_accession": "LY720770",
+      "removed_length": 7222,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020190089123 a 9 30 jul 2019  korea institute of science and technology iucf hyu  industry university cooperation foundation hanyang university | yi h j   lim j a   lee k y  and lee y j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LG073148",
+      "kept_accession": "LY720770",
+      "removed_length": 7222,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020190089123 a 9 30 jul 2019  korea institute of science and technology iucf hyu  industry university cooperation foundation hanyang university | yi h j   lim j a   lee k y  and lee y j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DI434620",
+      "kept_accession": "LY720770",
+      "removed_length": 7222,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020190089123 a 9 30 jul 2019  korea institute of science and technology iucf hyu  industry university cooperation foundation hanyang university | yi h j   lim j a   lee k y  and lee y j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MN728549",
+      "kept_accession": "MN728550",
+      "removed_length": 6791,
+      "kept_features": 5,
+      "submitter_key": "submitted  23 nov 2019  state key laboratory of plant genomics  institute of genetics and developmental biology  cas  west beichen road  bei jing 100101  china | wang l",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MK606504",
+      "kept_accession": "MK606507",
+      "removed_length": 3003,
+      "kept_features": 4,
+      "submitter_key": "submitted  07 mar 2019  university of gdansk  faculty of chemistry  wita stwosza 63  gdansk  pomorskie 80 308  poland | skowron p m  and zylicz stachula a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MK606503",
+      "kept_accession": "MK606506",
+      "removed_length": 2986,
+      "kept_features": 4,
+      "submitter_key": "submitted  07 mar 2019  university of gdansk  faculty of chemistry  wita stwosza 63  gdansk  pomorskie 80 308  poland | skowron p m  and zylicz stachula a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MK606502",
+      "kept_accession": "MK606505",
+      "removed_length": 2984,
+      "kept_features": 4,
+      "submitter_key": "submitted  07 mar 2019  university of gdansk  faculty of chemistry  wita stwosza 63  gdansk  pomorskie 80 308  poland | skowron p m  and zylicz stachula a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MP041611",
+      "kept_accession": "SYNPUC19V",
+      "removed_length": 2686,
+      "kept_features": 8,
+      "submitter_key": "submitted  27 sep 1991  waksman institute  rutgers state univ   190 frelinghuysen road  piscataway  nj 08854  usa | messing j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HB387455",
+      "kept_accession": "SYNPUC19V",
+      "removed_length": 2686,
+      "kept_features": 8,
+      "submitter_key": "submitted  27 sep 1991  waksman institute  rutgers state univ   190 frelinghuysen road  piscataway  nj 08854  usa | messing j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AX743996",
+      "kept_accession": "SYNPUC19V",
+      "removed_length": 2686,
+      "kept_features": 8,
+      "submitter_key": "submitted  27 sep 1991  waksman institute  rutgers state univ   190 frelinghuysen road  piscataway  nj 08854  usa | messing j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MA739227",
+      "kept_accession": "LQ752036",
+      "removed_length": 1016,
+      "kept_features": 3,
+      "submitter_key": "patent  ep 3330385 a1 4 06 jun 2018  gen probe incorporated  us | browne k a  and kacian d l",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LF860760",
+      "kept_accession": "LQ752036",
+      "removed_length": 1016,
+      "kept_features": 3,
+      "submitter_key": "patent  ep 3330385 a1 4 06 jun 2018  gen probe incorporated  us | browne k a  and kacian d l",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW827427",
+      "kept_accession": "LQ752036",
+      "removed_length": 1016,
+      "kept_features": 3,
+      "submitter_key": "patent  ep 3330385 a1 4 06 jun 2018  gen probe incorporated  us | browne k a  and kacian d l",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW089282",
+      "kept_accession": "LQ752036",
+      "removed_length": 1016,
+      "kept_features": 3,
+      "submitter_key": "patent  ep 3330385 a1 4 06 jun 2018  gen probe incorporated  us | browne k a  and kacian d l",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HI996847",
+      "kept_accession": "LQ752036",
+      "removed_length": 1016,
+      "kept_features": 3,
+      "submitter_key": "patent  ep 3330385 a1 4 06 jun 2018  gen probe incorporated  us | browne k a  and kacian d l",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LY516981",
+      "kept_accession": "LY516846",
+      "removed_length": 3187,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020170139959 a 39 20 dec 2017  industry academic cooperation foundation gyeongsang national university | kim s w   park j b   wang c  and bakht z",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LY516970",
+      "kept_accession": "LY516835",
+      "removed_length": 2999,
+      "kept_features": 1,
+      "submitter_key": "patent  kr 1020170139959 a 28 20 dec 2017  industry academic cooperation foundation gyeongsang national university | kim s w   park j b   wang c  and bakht z",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LY516834",
+      "kept_accession": "XXU13872",
+      "removed_length": 4176,
+      "kept_features": 19,
+      "submitter_key": "submitted  19 aug 1994  james a  malone  international technical services  molecular biology reagents division  pharmacia biotech inc   2202 n  bartlett ave   milwaukee  wi 53202 1009  usa | malone j a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LY516969",
+      "kept_accession": "XXU13872",
+      "removed_length": 4176,
+      "kept_features": 19,
+      "submitter_key": "submitted  19 aug 1994  james a  malone  international technical services  molecular biology reagents division  pharmacia biotech inc   2202 n  bartlett ave   milwaukee  wi 53202 1009  usa | malone j a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LV512924",
+      "kept_accession": "LQ726217",
+      "removed_length": 5988,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 3318631 a1 45 09 may 2018  asahi glass co ltd  jp | tanaka t   kotani t  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LV512923",
+      "kept_accession": "LQ726216",
+      "removed_length": 5778,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 3318631 a1 44 09 may 2018  asahi glass co ltd  jp | tanaka t   kotani t  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LV512921",
+      "kept_accession": "LQ726214",
+      "removed_length": 6057,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 3318631 a1 42 09 may 2018  asahi glass co ltd  jp | tanaka t   kotani t  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LV512920",
+      "kept_accession": "LQ726213",
+      "removed_length": 5998,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 3318631 a1 41 09 may 2018  asahi glass co ltd  jp | tanaka t   kotani t  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "MG188310",
+      "kept_accession": "MG188311",
+      "removed_length": 8870,
+      "kept_features": 29,
+      "submitter_key": "submitted  05 oct 2017  mycology  institut pasteur  25 rue du dr roux  paris 75015  france | bachellier bassi s   arbogast l   legrand m   boyer h   chauvel m  and d enfert c",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "LQ664064",
+      "kept_accession": "AB027256",
+      "removed_length": 6323,
+      "kept_features": 9,
+      "submitter_key": "submitted  10 may 1999  jun ueki  japan tobacco inc   plant innovation center  700 higashibara  iwata  shizuoka 438 0802  japan  e mail jun ueki ims jti co jp  tel 81 538 32 7120  fax 81 538 33 6046 | komari t   kuraya y   murai n   ueki j  and saito y",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467853",
+      "kept_accession": "LP719887",
+      "removed_length": 5831,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 20 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467847",
+      "kept_accession": "LP719881",
+      "removed_length": 5847,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 14 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467844",
+      "kept_accession": "LP719878",
+      "removed_length": 5960,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 11 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467843",
+      "kept_accession": "LP719877",
+      "removed_length": 5526,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 10 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467841",
+      "kept_accession": "LP719875",
+      "removed_length": 3801,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 8 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467840",
+      "kept_accession": "LP719874",
+      "removed_length": 6675,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 7 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467838",
+      "kept_accession": "LP719872",
+      "removed_length": 8550,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 5 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467837",
+      "kept_accession": "LP719871",
+      "removed_length": 8563,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 4 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467836",
+      "kept_accession": "LP719870",
+      "removed_length": 8515,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 3 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW467835",
+      "kept_accession": "LP719869",
+      "removed_length": 2664,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2886642 a1 2 24 jun 2015  asahi glass co ltd  jp | kobayashi m   tohda h   kimura s   zen in s  and hara f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "FZ415506",
+      "kept_accession": "HZ392987",
+      "removed_length": 8669,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2015156869 a 22 03 sep 2015  nextera as | loeset g a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HH807327",
+      "kept_accession": "HZ392987",
+      "removed_length": 8669,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2015156869 a 22 03 sep 2015  nextera as | loeset g a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "GN064341",
+      "kept_accession": "HZ392987",
+      "removed_length": 8669,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2015156869 a 22 03 sep 2015  nextera as | loeset g a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HV220368",
+      "kept_accession": "JE829582",
+      "removed_length": 3159,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2829609 a1 1 28 jan 2015  e r squibb   sons l l c  us | korman a j   halk e l   lonberg n   keler t p  and deo y m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AX365120",
+      "kept_accession": "JE829582",
+      "removed_length": 3159,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2829609 a1 1 28 jan 2015  e r squibb   sons l l c  us | korman a j   halk e l   lonberg n   keler t p  and deo y m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AX088825",
+      "kept_accession": "JE829582",
+      "removed_length": 3159,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2829609 a1 1 28 jan 2015  e r squibb   sons l l c  us | korman a j   halk e l   lonberg n   keler t p  and deo y m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AX082146",
+      "kept_accession": "JE829582",
+      "removed_length": 3159,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2829609 a1 1 28 jan 2015  e r squibb   sons l l c  us | korman a j   halk e l   lonberg n   keler t p  and deo y m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "FW581365",
+      "kept_accession": "HW827749",
+      "removed_length": 5521,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2014055135 a 9 27 mar 2014  ming yu | yu m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "FW581357",
+      "kept_accession": "HW827741",
+      "removed_length": 2686,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2014055135 a 1 27 mar 2014  ming yu | yu m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW822839",
+      "kept_accession": "CVU55762",
+      "removed_length": 4733,
+      "kept_features": 4,
+      "submitter_key": "submitted  17 apr 1996  paul a  kitts  clontech laboratories  inc   1020 east meadow circle  palo alto  ca 94303 4230  usa | kitts p a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HV815712",
+      "kept_accession": "CVU55762",
+      "removed_length": 4733,
+      "kept_features": 4,
+      "submitter_key": "submitted  17 apr 1996  paul a  kitts  clontech laboratories  inc   1020 east meadow circle  palo alto  ca 94303 4230  usa | kitts p a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DL182827",
+      "kept_accession": "CVU55762",
+      "removed_length": 4733,
+      "kept_features": 4,
+      "submitter_key": "submitted  17 apr 1996  paul a  kitts  clontech laboratories  inc   1020 east meadow circle  palo alto  ca 94303 4230  usa | kitts p a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "KT003674",
+      "kept_accession": "KT003679",
+      "removed_length": 3053,
+      "kept_features": 6,
+      "submitter_key": "submitted  02 jun 2015  molecular medicine  boston university  72 east concord st  boston  ma 02118  usa | krom r j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "KT003673",
+      "kept_accession": "KT003678",
+      "removed_length": 3172,
+      "kept_features": 6,
+      "submitter_key": "submitted  02 jun 2015  molecular medicine  boston university  72 east concord st  boston  ma 02118  usa | krom r j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960572",
+      "kept_accession": "KF933409",
+      "removed_length": 7228,
+      "kept_features": 18,
+      "submitter_key": "submitted  25 nov 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960571",
+      "kept_accession": "KF933408",
+      "removed_length": 9324,
+      "kept_features": 17,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960570",
+      "kept_accession": "KF933412",
+      "removed_length": 7655,
+      "kept_features": 21,
+      "submitter_key": "submitted  25 nov 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960569",
+      "kept_accession": "KF933407",
+      "removed_length": 9248,
+      "kept_features": 18,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960568",
+      "kept_accession": "KF933411",
+      "removed_length": 7578,
+      "kept_features": 19,
+      "submitter_key": "submitted  25 nov 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960567",
+      "kept_accession": "KF933406",
+      "removed_length": 6340,
+      "kept_features": 13,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960566",
+      "kept_accession": "KF933405",
+      "removed_length": 6328,
+      "kept_features": 13,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960565",
+      "kept_accession": "KF933404",
+      "removed_length": 6565,
+      "kept_features": 12,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960564",
+      "kept_accession": "KF933403",
+      "removed_length": 6340,
+      "kept_features": 12,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960563",
+      "kept_accession": "KF933402",
+      "removed_length": 5480,
+      "kept_features": 14,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960562",
+      "kept_accession": "KF933401",
+      "removed_length": 5465,
+      "kept_features": 14,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960561",
+      "kept_accession": "KF933400",
+      "removed_length": 5414,
+      "kept_features": 13,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960560",
+      "kept_accession": "KF933399",
+      "removed_length": 5399,
+      "kept_features": 14,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960559",
+      "kept_accession": "KF933398",
+      "removed_length": 8276,
+      "kept_features": 18,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960558",
+      "kept_accession": "KF933397",
+      "removed_length": 8255,
+      "kept_features": 18,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960557",
+      "kept_accession": "KF933396",
+      "removed_length": 8257,
+      "kept_features": 18,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960556",
+      "kept_accession": "KF933395",
+      "removed_length": 8237,
+      "kept_features": 18,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960555",
+      "kept_accession": "KF933394",
+      "removed_length": 8978,
+      "kept_features": 14,
+      "submitter_key": "submitted  24 oct 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960554",
+      "kept_accession": "KF933410",
+      "removed_length": 7306,
+      "kept_features": 17,
+      "submitter_key": "submitted  25 nov 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JC960553",
+      "kept_accession": "KF933393",
+      "removed_length": 9693,
+      "kept_features": 16,
+      "submitter_key": "submitted  05 dec 2013  laboratory of molecular bacteriology  medical university of gdansk  debinki 1  gdansk 80 211  poland | iwanicki a   hinc k   stasilojc m   piatek i   grela a   lega t  and obuchowski m",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW503558",
+      "kept_accession": "HW507039",
+      "removed_length": 5085,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2014057546 a 2 03 apr 2014  osaka university | yonesaki t",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HW503557",
+      "kept_accession": "HW507038",
+      "removed_length": 1346,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2014057546 a 1 03 apr 2014  osaka university | yonesaki t",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HD033232",
+      "kept_accession": "HW381271",
+      "removed_length": 10348,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2012510802 a 8 17 may 2012  intercell ag | martin b   monika b   roger b  and nicole s",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HV931893",
+      "kept_accession": "JC245276",
+      "removed_length": 5473,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2431468 a1 29 21 mar 2012  cytos biotechnology ag  ch | bachmann m   spohn g  and tissot a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HC004719",
+      "kept_accession": "JC245276",
+      "removed_length": 5473,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2431468 a1 29 21 mar 2012  cytos biotechnology ag  ch | bachmann m   spohn g  and tissot a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM177644",
+      "kept_accession": "JC245276",
+      "removed_length": 5473,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2431468 a1 29 21 mar 2012  cytos biotechnology ag  ch | bachmann m   spohn g  and tissot a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "FB778021",
+      "kept_accession": "JC245276",
+      "removed_length": 5473,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2431468 a1 29 21 mar 2012  cytos biotechnology ag  ch | bachmann m   spohn g  and tissot a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS600734",
+      "kept_accession": "JC245276",
+      "removed_length": 5473,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2431468 a1 29 21 mar 2012  cytos biotechnology ag  ch | bachmann m   spohn g  and tissot a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM150282",
+      "kept_accession": "JB342725",
+      "removed_length": 3238,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2520584 a1 55 07 nov 2012  amsilk gmbh  de | scheibel t   huemmerich d  and ackerschott c",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DL189485",
+      "kept_accession": "JB342725",
+      "removed_length": 3238,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2520584 a1 55 07 nov 2012  amsilk gmbh  de | scheibel t   huemmerich d  and ackerschott c",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS574124",
+      "kept_accession": "JB342725",
+      "removed_length": 3238,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2520584 a1 55 07 nov 2012  amsilk gmbh  de | scheibel t   huemmerich d  and ackerschott c",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS542567",
+      "kept_accession": "JB342725",
+      "removed_length": 3238,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2520584 a1 55 07 nov 2012  amsilk gmbh  de | scheibel t   huemmerich d  and ackerschott c",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS485291",
+      "kept_accession": "JB342725",
+      "removed_length": 3238,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2520584 a1 55 07 nov 2012  amsilk gmbh  de | scheibel t   huemmerich d  and ackerschott c",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS319910",
+      "kept_accession": "JB342725",
+      "removed_length": 3238,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2520584 a1 55 07 nov 2012  amsilk gmbh  de | scheibel t   huemmerich d  and ackerschott c",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JB036134",
+      "kept_accession": "JB035939",
+      "removed_length": 11135,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2527454 a1 118 28 nov 2012  swetree technologies ab  se | hertzberg m   sundberg b   sandberg g   schrader j   teeri t   aspeborg h   wallbaecks l   bhalerao r   trygg j   johansson k   karlsson a  and johnsson p",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JB036133",
+      "kept_accession": "JB035938",
+      "removed_length": 13599,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2527454 a1 117 28 nov 2012  swetree technologies ab  se | hertzberg m   sundberg b   sandberg g   schrader j   teeri t   aspeborg h   wallbaecks l   bhalerao r   trygg j   johansson k   karlsson a  and johnsson p",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "JB036132",
+      "kept_accession": "JB035937",
+      "removed_length": 4470,
+      "kept_features": 2,
+      "submitter_key": "patent  ep 2527454 a1 116 28 nov 2012  swetree technologies ab  se | hertzberg m   sundberg b   sandberg g   schrader j   teeri t   aspeborg h   wallbaecks l   bhalerao r   trygg j   johansson k   karlsson a  and johnsson p",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HV748572",
+      "kept_accession": "CS467417",
+      "removed_length": 1192,
+      "kept_features": 5,
+      "submitter_key": "patent  wo 2006116156 a2 1339 02 nov 2006  amgen  inc  us | sullivan j k   mcgivern j g   miranda l p   nguyen h q   walker k w   hu s f   gegg jr c v  and mcdonough s i",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM105628",
+      "kept_accession": "CS467417",
+      "removed_length": 1192,
+      "kept_features": 5,
+      "submitter_key": "patent  wo 2006116156 a2 1339 02 nov 2006  amgen  inc  us | sullivan j k   mcgivern j g   miranda l p   nguyen h q   walker k w   hu s f   gegg jr c v  and mcdonough s i",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HC298792",
+      "kept_accession": "JA446659",
+      "removed_length": 2096,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 9 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM178850",
+      "kept_accession": "JA446659",
+      "removed_length": 2096,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 9 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DJ049478",
+      "kept_accession": "JA446659",
+      "removed_length": 2096,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 9 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HC298790",
+      "kept_accession": "JA446657",
+      "removed_length": 2097,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 7 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM178848",
+      "kept_accession": "JA446657",
+      "removed_length": 2097,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 7 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DJ049476",
+      "kept_accession": "JA446657",
+      "removed_length": 2097,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 7 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HC298788",
+      "kept_accession": "JA446655",
+      "removed_length": 2092,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 5 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM178846",
+      "kept_accession": "JA446655",
+      "removed_length": 2092,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 5 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DJ049474",
+      "kept_accession": "JA446655",
+      "removed_length": 2092,
+      "kept_features": 1,
+      "submitter_key": "patent  ep 2363464 a1 5 07 sep 2011  intrexon corp  us | reed t  and zhou j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HV304246",
+      "kept_accession": "DQ996013",
+      "removed_length": 3851,
+      "kept_features": 16,
+      "submitter_key": "submitted  18 sep 2006  qiagen  27220 turnberry lane  suite 200  valencia  ca 91355  usa | rega s",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HV120334",
+      "kept_accession": "DQ996013",
+      "removed_length": 3851,
+      "kept_features": 16,
+      "submitter_key": "submitted  18 sep 2006  qiagen  27220 turnberry lane  suite 200  valencia  ca 91355  usa | rega s",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "GN089973",
+      "kept_accession": "BN000529",
+      "removed_length": 6554,
+      "kept_features": 1,
+      "submitter_key": "submitted  25 may 2004  laner a   medical genetics  ludwig maximilians university  goethestr  29  80336 munich  germany | laner a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "GN089972",
+      "kept_accession": "BN000528",
+      "removed_length": 8684,
+      "kept_features": 1,
+      "submitter_key": "submitted  25 may 2004  laner a   medical genetics  ludwig maximilians university  goethestr  29  80336 munich  germany | laner a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "HI541039",
+      "kept_accession": "FW574402",
+      "removed_length": 2836,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2010530248 a 3 09 sep 2010  medimmune llc | jin h  and chen z",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM143452",
+      "kept_accession": "CVU55761",
+      "removed_length": 4151,
+      "kept_features": 4,
+      "submitter_key": "submitted  17 apr 1996  paul a  kitts  clontech laboratories  inc   1020 east meadow circle  palo alto  ca 94303 4230  usa | kitts p a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM056982",
+      "kept_accession": "CVU55761",
+      "removed_length": 4151,
+      "kept_features": 4,
+      "submitter_key": "submitted  17 apr 1996  paul a  kitts  clontech laboratories  inc   1020 east meadow circle  palo alto  ca 94303 4230  usa | kitts p a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DJ049473",
+      "kept_accession": "DM178845",
+      "removed_length": 1628,
+      "kept_features": 5,
+      "submitter_key": "patent  jp 2009508533 a 4 05 mar 2009  intrexon corporation | reed t  and zhou j f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DM178842",
+      "kept_accession": "DM178844",
+      "removed_length": 3452,
+      "kept_features": 5,
+      "submitter_key": "patent  jp 2009508533 a 3 05 mar 2009  intrexon corporation | reed t  and zhou j f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DJ049472",
+      "kept_accession": "DM178844",
+      "removed_length": 3452,
+      "kept_features": 5,
+      "submitter_key": "patent  jp 2009508533 a 3 05 mar 2009  intrexon corporation | reed t  and zhou j f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DJ049470",
+      "kept_accession": "DM178844",
+      "removed_length": 3452,
+      "kept_features": 5,
+      "submitter_key": "patent  jp 2009508533 a 3 05 mar 2009  intrexon corporation | reed t  and zhou j f",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AM884377",
+      "kept_accession": "AM884378",
+      "removed_length": 7836,
+      "kept_features": 17,
+      "submitter_key": "submitted  12 sep 2007  zhong s   school of biosciences  plant sciences division  university of nottingham  sutton bonington campus  le12 5rd  united kingdom | zhong s",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNPSP65V",
+      "kept_accession": "X65329",
+      "removed_length": 3005,
+      "kept_features": 10,
+      "submitter_key": "submitted  23 mar 1992  technical services  promega corporation  2800 woods hollow road  madison  wi 53711 5399  usa | technical services",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNPSP64V",
+      "kept_accession": "X65327",
+      "removed_length": 2999,
+      "kept_features": 10,
+      "submitter_key": "submitted  23 mar 1992  technical services  promega corporation  2800 woods hollow road  madison  wi 53711 5399  usa | technical services",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNPGEM3V",
+      "kept_accession": "X65302",
+      "removed_length": 2867,
+      "kept_features": 9,
+      "submitter_key": "submitted  23 mar 1992  technical services  promega corporation  2800 woods hollow road  madison  wi 53711 5399  usa | technical services",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNPGEM2V",
+      "kept_accession": "X65301",
+      "removed_length": 2869,
+      "kept_features": 9,
+      "submitter_key": "submitted  23 mar 1992  technical services  promega corporation  2800 woods hollow road  madison  wi 53711 5399  usa | technical services",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNPGEM1V",
+      "kept_accession": "X65300",
+      "removed_length": 2865,
+      "kept_features": 7,
+      "submitter_key": "submitted  23 mar 1992  technical services  promega corporation  2800 woods hollow road  madison  wi 53711 5399  usa | technical services",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNJRD158V",
+      "kept_accession": "X01453",
+      "removed_length": 3903,
+      "kept_features": 12,
+      "submitter_key": "dna 3  3   259 268  1984 | heusterspreute m  and davison j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNM13MP9V",
+      "kept_accession": "SYNPUC9CPL",
+      "removed_length": 7599,
+      "kept_features": 8,
+      "submitter_key": "gene 19  3   259 268  1982 | vieira j  and messing j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "SYNM13MP8V",
+      "kept_accession": "SYNPUC8CPL",
+      "removed_length": 7229,
+      "kept_features": 6,
+      "submitter_key": "gene 19  3   259 268  1982 | vieira j  and messing j",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AJ315956",
+      "kept_accession": "AJ537514",
+      "removed_length": 10828,
+      "kept_features": 17,
+      "submitter_key": "submitted  20 jan 2003  reiss b   department schell  mpi fuer zuechtungsforschung  carl von linne weg 10  50829 koeln  germany | reiss b",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "DL131951",
+      "kept_accession": "AJ277960",
+      "removed_length": 4672,
+      "kept_features": 12,
+      "submitter_key": "submitted  09 may 2000  maggi a   institute of pharmacological sciences  university of milan  via balzaretti 9  milan i 20133  italy | maggi a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AX027819",
+      "kept_accession": "BD261822",
+      "removed_length": 2297,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2002533126 a 11 08 oct 2002  norpharma spa | bestetti g   cali s   ghisotti d   orsini g   tonon g  and zuffi g",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "E49065",
+      "kept_accession": "AB038146",
+      "removed_length": 3249,
+      "kept_features": 8,
+      "submitter_key": "submitted  07 feb 2000  yuzuru husimi  saitama university  deptartment of functional materials science  255 shimo ookubo  urawa  saitama 338 8750  japan  e mail ito evolve fms saitama u ac jp  tel  81 48 858 3531  fax  81 48 858 3531 | ito y   suzuki m  and husimi y",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AX235908",
+      "kept_accession": "DD013400",
+      "removed_length": 6741,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2004512007 a 14 22 apr 2004  stephen l dellaporta maria a moreno yale university | dellaporta s l  and moreno m a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CVU10460",
+      "kept_accession": "DD013400",
+      "removed_length": 6741,
+      "kept_features": 1,
+      "submitter_key": "patent  jp 2004512007 a 14 22 apr 2004  stephen l dellaporta maria a moreno yale university | dellaporta s l  and moreno m a",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CS065992",
+      "kept_accession": "AJ249646",
+      "removed_length": 4808,
+      "kept_features": 10,
+      "submitter_key": "submitted  17 sep 1999  daignan fornier b   ibgc  cnrs upr9026  1  rue camille saint saens bordeaux  33077  france | daignan fornier b",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AJ438948",
+      "kept_accession": "AJ438949",
+      "removed_length": 2887,
+      "kept_features": 10,
+      "submitter_key": "submitted  19 feb 2002  boccard f d   centre de genetique moleculaire  cnrs  bat  26  2 av  de la terrasse  gif sur yvette  91198  france | boccard f d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AJ431691",
+      "kept_accession": "AJ438949",
+      "removed_length": 2887,
+      "kept_features": 10,
+      "submitter_key": "submitted  19 feb 2002  boccard f d   centre de genetique moleculaire  cnrs  bat  26  2 av  de la terrasse  gif sur yvette  91198  france | boccard f d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AJ438946",
+      "kept_accession": "AJ438947",
+      "removed_length": 2337,
+      "kept_features": 10,
+      "submitter_key": "submitted  19 feb 2002  boccard f d   centre de genetique moleculaire  cnrs  bat  26  2 av  de la terrasse  gif sur yvette  91198  france | boccard f d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "AJ431690",
+      "kept_accession": "AJ438947",
+      "removed_length": 2337,
+      "kept_features": 10,
+      "submitter_key": "submitted  19 feb 2002  boccard f d   centre de genetique moleculaire  cnrs  bat  26  2 av  de la terrasse  gif sur yvette  91198  france | boccard f d",
+      "stage": "exact"
+    },
+    {
+      "removed_accession": "CVU07650",
+      "kept_accession": "AX743997",
+      "removed_length": 3162,
+      "kept_features": 1,
+      "submitter_key": "patent  wo 03031611 a2 6 17 apr 2003  cangene corporation  ca | wiersma e j  and stewart d i",
+      "stage": "exact"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+# data/MANIFEST.yml — Splicify reference data deposits.
+#
+# Splicify ships code + tiny test fixtures in the wheel. Production-size
+# reference databases + the rebuilt plasmid library live on Zenodo and are
+# fetched via scripts/fetch_data.sh into $SPLICIFY_DATA_DIR.
+#
+# Update this file when a new Zenodo deposit lands. Pin SHA256 so users
+# can verify offline.
+
+version: 1
+
+artefacts:
+
+  feature_db_data:
+    description: |
+      6-tier annotation reference DBs used by feature_annotator.py (Step 1
+      of the annotation pipeline) and downstream module / interaction
+      detection:
+        - feature_reference (1,062 GenoLIB + RefSeq nucleotide features)
+        - feature_motifs (224 short motifs)
+        - feature_protein (706 GenoLIB CDS translations)
+        - fpbase (721 fluorescent proteins)
+        - swissprot (66,221 curated PE-1 entries)
+        - Rfam_curated (1,737 families)
+      Plus BLAST / mmseqs2 / Infernal indices + feature_knowledge_base.json.
+    size_mb: 635
+    sha256: TBD-on-zenodo-upload
+    zenodo_doi: 10.5281/zenodo.TBD
+    licence: |
+      Mixed (per-tier):
+        - feature_reference (GenoLIB seed):  MIT
+        - feature_motifs:                    MIT
+        - feature_protein (GenoLIB):         MIT
+        - fpbase:                            CC-BY-4.0
+        - swissprot:                         CC-BY-4.0
+        - Rfam_curated:                      CC0
+      See feature_db_data/LICENSES.csv inside the deposit for per-file attribution.
+    target_dir: feature_db_data/
+
+  Module_Library_gb_rebuilt:
+    description: |
+      Curated plasmid library, REBUILT from SnapGene's CC-licensed sequences
+      (snapgene.com/plasmids, excluding coronavirus subset) via scripts/
+      rebuild_module_library.py. SnapGene-proprietary annotations stripped;
+      all annotations re-emitted by splicify_api.feature_annotator (MIT
+      clean-room).
+      ~1,849 plasmids across 9 host folders: Mammalian Expression Vectors,
+      Basic Cloning Vectors, Fluorescent Protein Genes & Plasmids, CRISPR
+      Plasmids, Gateway Cloning Vectors, Luciferase Vectors, Insect Cell
+      Vectors, Lucigen Vectors, I.M.A.G.E. Consortium Plasmids.
+    size_mb: 128
+    sha256: TBD-on-rebuild
+    zenodo_doi: 10.5281/zenodo.TBD
+    licence: |
+      Sequences: CC-BY-4.0 (per SnapGene plasmid library terms).
+      Annotations: MIT (splicify-generated via feature_annotator).
+      Combined work: CC-BY-4.0 with MIT annotation overlay.
+    target_dir: Module_Library_gb/
+
+  plasmid_lm_corpus:
+    description: |
+      Plasmid LM training artefacts:
+        - token_corpus.jsonl (~42,198 examples, K=6 rotation augmentation)
+        - design_training_pairs.jsonl (Anthropic-regenerated against the
+          current annotation pipeline; replaces the stale 2026-04 pairs)
+        - plasmid_descriptions.jsonl
+        - part_annotations.jsonl
+        - lm_vocabulary.json
+        - lm_ckpt/ (decoder-only transformer checkpoint)
+        - retrieval/plasmid_index.hnsw
+      Corpus sources: rebuilt Module_Library_gb + NCBI engineered plasmids
+      (incl. the resumed 4,357-plasmid fetch) + curated NCBI RefSeq +
+      VectorBuilder representative vectors. ~9,846 plasmids total.
+    size_mb: 268
+    sha256: TBD-on-train
+    zenodo_doi: 10.5281/zenodo.TBD
+    licence: |
+      Apache-2.0 (derivative work).
+      Generated descriptions: Apache-2.0 (your local Anthropic API usage;
+      Splicify project owns the derivative work per Anthropic Commercial
+      Terms of Service).
+    target_dir: plasmid_lm_corpus/

@@ -1,0 +1,67 @@
+vector_type,rule_id,rule_type,features,direction,location_constraint,weight,notes
+Lentivirus,LV-01,boundary,5' LTR | 5' LTR (truncated) | HIV-1 5' LTR,forward,flanks_5prime,0.95,Payload begins at the 5' LTR; in 3rd-gen SIN vectors this is a chimeric/truncated LTR where U3 is replaced by a heterologous promoter (RSV or CMV).
+Lentivirus,LV-02,boundary,3' LTR | 3' LTR (ΔU3),forward,flanks_3prime,0.95,Payload ends at the 3' LTR. A ΔU3 deletion (self-inactivating) is a near-definitive marker of modern lentiviral transfer plasmids vs. retroviral.
+Lentivirus,LV-03,presence,HIV-1 Ψ | HIV-1 psi pack | psi plus pack,forward,downstream_of:5' LTR; within:400_bp_of:5' LTR,0.9,HIV-1 packaging signal; essentially pathognomonic for HIV-1-derived lentivirus when combined with LTRs.
+Lentivirus,LV-04,presence,RRE,forward,between:5' LTR..3' LTR,0.8,Rev Response Element; required for nuclear export of unspliced genomic RNA. Strong lentiviral marker.
+Lentivirus,LV-05,presence,cPPT/CTS | cPPT,forward,between:RRE..3' LTR,0.7,Central polypurine tract; improves transduction efficiency. Common in 2nd/3rd-gen lentiviral vectors.
+Lentivirus,LV-06,presence,WPRE,forward,upstream_of:3' LTR; within:600_bp_of:3' LTR,0.55,Woodchuck post-transcriptional regulatory element. Boosts transgene expression. Also used in some AAV/retro vectors — not lenti-exclusive.
+Lentivirus,LV-07,presence,gag (truncated) | HIV-1 gag | gag,forward,downstream_of:HIV-1 Ψ,0.75,Truncated gag retained because packaging signal extends into the gag ORF; non-functional but structurally important.
+Lentivirus,LV-08,order,5' LTR -> HIV-1 Ψ -> RRE -> cPPT/CTS -> [transgene cassette] -> WPRE -> 3' LTR,forward,flanks,0.95,Canonical element order. Matching the full order is essentially diagnostic.
+Lentivirus,LV-09,presence_all,HIV-1 Ψ + RRE + WPRE,forward,between:LTRs,0.97,Co-occurrence of these three cis elements between LTRs is nearly exclusive to HIV-1 lentiviral transfer plasmids.
+Lentivirus,LV-10,exclusion,AAV2 ITR | ITR,n/a,n/a,-0.8,Presence of ITRs argues strongly against lentivirus.
+AAV,AAV-01,boundary,AAV2 ITR | ITR,either,flanks,0.98,Inverted terminal repeats flank the rAAV cassette. ~145 bp each. Two ITRs in inverted orientation are the defining feature.
+AAV,AAV-02,presence_all,AAV2 ITR (5') + AAV2 ITR (3'),inverted,flanks; distance:<4700_bp,0.99,Two ITRs in inverted orientation separated by ≤~4.7 kb (AAV packaging limit) is pathognomonic for rAAV transfer plasmid.
+AAV,AAV-03,presence,WPRE,forward,between:ITRs; upstream_of:poly(A) signal,0.35,WPRE is common in rAAV expression cassettes but also in lenti/retro — weak alone.
+AAV,AAV-04,presence,bGH poly(A) signal | SV40 poly(A) signal | hGH poly(A) signal,forward,between:ITRs; upstream_of:ITR (3'),0.3,Short polyA signals are preferred in rAAV due to the 4.7 kb packaging limit. Weak on its own.
+AAV,AAV-05,exclusion,Rep | Cap | AAV2 Rep | AAV2 Cap,either,outside:ITRs,0.0,"Rep/Cap present OUTSIDE ITRs indicates a helper/packaging plasmid, not the transfer vector payload. Reclassify as AAV helper plasmid."
+AAV,AAV-06,exclusion,5' LTR | 3' LTR | HIV-1 Ψ,n/a,n/a,-0.9,LTR/psi presence excludes AAV.
+Gamma-retrovirus,RV-01,boundary,5MoMuLV LTR | 3MoMuLV LTR | 5' LTR | 3' LTR,forward,flanks,0.9,MLV LTRs (~600 bp) flank the provirus; distinct from HIV LTRs in sequence.
+Gamma-retrovirus,RV-02,presence,MMLV Ψ | MESV Ψ,forward,downstream_of:5' LTR,0.95,MMLV/MESV packaging signal — specific to gamma-retrovirus; not interchangeable with HIV-1 Ψ.
+Gamma-retrovirus,RV-03,exclusion,HIV-1 Ψ | RRE | cPPT/CTS,n/a,n/a,-0.9,These are lentivirus-specific; their presence rules out gamma-retrovirus.
+Gamma-retrovirus,RV-04,presence_all,MLV LTR (5') + MMLV Ψ + MLV LTR (3'),forward,flanks,0.97,MLV LTRs + MMLV Ψ co-occurrence is diagnostic. MSCV and MESV vectors follow the same pattern.
+Adenovirus,AD-01,boundary,ITR | Ad5 ITR,either,flanks,0.9,Adenoviral ITRs (~100 bp) flank the genome. Distinguished from AAV ITRs by sequence — both may be annotated simply as 'ITR'.
+Adenovirus,AD-02,presence,Ad5 Ψ,forward,downstream_of:5' ITR; within:400_bp_of:5' ITR,0.95,Adenovirus packaging signal — diagnostic when present.
+Adenovirus,AD-03,presence,E1B | E4orf6,either,n/a,0.5,"Adenoviral early genes; often deleted (ΔE1/ΔE3) in gene therapy vectors, so absence does not exclude."
+Adenovirus,AD-04,presence,Ad SA,forward,n/a,0.6,Adenoviral splice acceptor; supporting evidence.
+Adenovirus,AD-05,exclusion,HIV-1 Ψ | MMLV Ψ | AAV2 ITR,n/a,n/a,-0.9,Other viral packaging elements exclude adenovirus.
+HSV,HSV-01,presence,HSV TK promoter | HSV TK | HSV TK poly(A) signal,either,n/a,0.4,HSV TK elements are frequently used as markers in non-HSV vectors too (e.g. for selection). Weak as a standalone HSV indicator.
+HSV,HSV-02,presence,ΔTK | Mini-TK promoter,forward,n/a,0.6,Engineered TK deletions/mini variants are more specific to HSV amplicon/oncolytic vectors.
+HSV,HSV-03,presence,VP16 AD,forward,n/a,0.3,"HSV VP16 activation domain; used broadly in chimeric TFs (Tet-On/Off, GAL4-VP16). Only weak evidence for HSV payload unless combined with TK/OriS."
+HSV,HSV-04,presence,HSV oriS | HSV oriL | pac site | a sequence,either,n/a,0.9,"HSV origins of replication and pac cleavage/packaging sites are definitive for HSV amplicons, if annotated."
+Baculovirus,BV-01,presence,polyhedrin promoter | p10 promoter | p6.9 promoter | basic protein promoter,forward,upstream_of:transgene_CDS,0.85,Very late baculoviral promoters driving heterologous expression. Strong indicator.
+Baculovirus,BV-02,presence,polyhedrin 5' UTR | polyhedrin 3' UTR,forward,flanks:transgene_CDS,0.7,Native polh UTRs retained in transfer vectors.
+Baculovirus,BV-03,boundary,baculovirus recombination region (ORF1629) | baculovirus recombination region (lef2/ORF603) | ORF1629 | ORF603 | lef2,either,flanks,0.9,Flanking homology arms for recombination into AcMNPV genome (Bac-to-Bac / BaculoDirect). These define the transfer cassette boundaries.
+Baculovirus,BV-04,presence,Tn7L + Tn7R,flanks,flanks,0.95,Tn7 transposition arms are used in Bac-to-Bac bacmids; their presence flanking the cassette is nearly diagnostic.
+Baculovirus,BV-05,presence,gp64 promoter | GP64 signal sequence | GP64 mature domain,forward,n/a,0.6,"gp64 envelope elements; used for baculovirus surface display, supportive."
+Baculovirus,BV-06,presence,OpIE-1 promoter | OpIE-2 promoter | OpIE-2 poly(A) signal | hr5 enhancer | IE1 promoter | IE0 promoter,forward,n/a,0.55,"Insect-cell-specific promoters/enhancers (OpMNPV, AcMNPV). Seen in both baculoviral transfer plasmids and stable insect expression plasmids."
+Vaccinia,VV-01,presence,p7.5 promoter | pSynE/L | mH5 promoter | p11 promoter,forward,upstream_of:transgene_CDS,0.9,Vaccinia-specific early/late promoters are diagnostic. Not present in the reference feature file — may require custom annotation.
+Vaccinia,VV-02,boundary,TK flanking region (vaccinia) | HA flanking region (vaccinia),flanks,flanks,0.9,Homology arms for recombination into the TK or HA locus of the vaccinia genome define the transfer cassette.
+Vaccinia,VV-03,presence,vaccinia early transcription terminator (T5NT),forward,downstream_of:transgene_CDS,0.7,T5NT motif terminates vaccinia early transcripts; supporting evidence.
+T-DNA,TD-01,boundary,LB T-DNA repeat | RB T-DNA repeat,either,flanks,0.98,Left and Right Border repeats define the T-DNA; everything between them is transferred to the plant genome. Presence of both is diagnostic.
+T-DNA,TD-02,presence,CaMV 35S promoter | CaMV 35S promoter (enhanced) | minimal CaMV 35S promoter | Ubi promoter,forward,between:LB..RB,0.6,Plant-active promoters driving payload expression. Common but not exclusive to T-DNA (also used in particle bombardment constructs).
+T-DNA,TD-03,presence,CaMV poly(A) signal | hsp70 poly(A) | nos terminator,forward,between:LB..RB,0.5,Plant-active polyA/terminator; supporting.
+T-DNA,TD-04,presence,TMV Ω | AtADH 5'-UTR | OsADH 5'-UTR | BYDV 5' UTR,forward,between:LB..RB,0.4,Plant translation-enhancing 5' UTRs; weak supporting evidence.
+T-DNA,TD-05,presence,pVS1 RepA | pVS1 oriV | pBBR1 Rep | pBBR1 oriV | pSa ori,either,outside:LB..RB,0.5,Broad-host-range origins outside the T-DNA support the identification as an Agrobacterium binary vector (backbone replicates in both E. coli and Agrobacterium).
+T-DNA,TD-06,presence_all,LB T-DNA repeat + RB T-DNA repeat + (CaMV 35S promoter | plant selectable marker),forward,flanks + between,0.97,LB+RB flanking a plant-active promoter or selectable marker is diagnostic for a T-DNA payload.
+BAC,BAC-01,presence_all,repE + sopA + sopB + sopC,forward,n/a,0.98,"F-plasmid mini-F replicon (repE + partition sopABC) is the defining backbone of BAC vectors (pBeloBAC, pBACe3.6)."
+BAC,BAC-02,presence,ori2,forward,n/a,0.6,Mini-F ori2 is part of the BAC replicon; supporting.
+BAC,BAC-03,presence,CmR,forward,n/a,0.2,Chloramphenicol resistance is the typical BAC selection marker; very weak alone (generic).
+BAC,BAC-04,presence,loxP | loxP511,either,flanks:cargo,0.3,Many BACs include loxP sites for Cre-mediated retrofitting.
+YAC,YAC-01,presence_all,CEN/ARS + TEL + TEL,either,flanks,0.98,A centromere/ARS plus two telomeric repeats is the defining structure of a linear YAC.
+YAC,YAC-02,presence,TRP1 | URA3 | HIS3 | ADE2,forward,n/a,0.3,Yeast auxotrophic markers; supportive but not specific (also used in 2μ plasmids).
+YAC,YAC-03,presence,2μ ori | 2micron origin,forward,n/a,-0.5,2μ origin argues for an episomal 2μ-based yeast vector rather than a true YAC.
+Lambda phage,LAM-01,boundary,cos | cosN,either,flanks,0.95,Cohesive-end sites (cos) define the boundaries of lambda DNA that gets packaged into phage heads. Two cos sites 38–52 kb apart is diagnostic.
+Lambda phage,LAM-02,presence,λ repressor | λ repressor (ts) | cI857 LR | λ N peptide,either,n/a,0.6,Lambda regulatory proteins; supporting for lambda-derived vectors.
+Lambda phage,LAM-03,presence,λ attP | phage Φ80 attP | HK022 attP | phage 186 attP,forward,n/a,0.4,Phage attachment sites; used for integration-based cloning.
+M13 phagemid,M13-01,presence,f1 ori | M13 ori,either,n/a,0.5,f1/M13 intergenic region directs ssDNA packaging by helper phage. Common in phagemids but also in many dual-purpose cloning vectors; moderate evidence.
+M13 phagemid,M13-02,presence,M13 gene II | M13 gene V | M13 gene VIII | M13 gene III | M13 gene VI | M13 gene VII | M13 gene IX,forward,n/a,0.95,Presence of actual M13 structural/replication genes (not just the ori) indicates a full phage genome or phage display vector.
+M13 phagemid,M13-03,presence,M13 gene III,forward,downstream_of:transgene_CDS; in_frame_with:transgene_CDS,0.9,pIII fusion downstream of the payload is the hallmark of M13 phage display.
+Plant viral,PV-01,presence,TMV Ω,forward,upstream_of:transgene_CDS,0.4,TMV 5' leader; translation enhancer. Common in plant transient expression including non-viral binary vectors — weak alone.
+Plant viral,PV-02,presence,CaMV 35S promoter (enhanced) | CaMV 35S promoter,forward,n/a,0.3,Used by both viral and non-viral plant vectors; weak.
+Plant viral,PV-03,presence,TMV movement protein | TMV coat protein | TMV replicase | PVX TGB | PVX CP,forward,n/a,0.95,Actual viral replication/movement ORFs indicate a true plant viral replicon.
+LNP-compatible pDNA,LNP-01,presence,T7 promoter,forward,upstream_of:transgene_CDS,0.4,For IVT-mRNA preceding LNP encapsulation — payload is linearized template. T7 upstream of the ORF is typical.
+LNP-compatible pDNA,LNP-02,presence,poly(A) signal | bGH poly(A) signal | SV40 poly(A) signal,forward,downstream_of:transgene_CDS,0.2,Generic; little discriminatory power.
+LNP-compatible pDNA,LNP-03,presence,T7 promoter + 5'UTR + CDS + 3'UTR + poly(A) tract,forward,order,0.8,Canonical IVT-mRNA cassette layout for LNP delivery.
+Naked pDNA (transient),PD-01,presence,CMV promoter | CMV enhancer | EF-1α promoter | SV40 promoter | CAG promoter,forward,upstream_of:transgene_CDS,0.3,Strong mammalian promoter; ubiquitous in transient expression plasmids. Very weak classifier on its own.
+Naked pDNA (transient),PD-02,presence,AmpR | KanR,either,n/a,0.1,Bacterial selection; generic.
+Naked pDNA (transient),PD-03,exclusion,ITR | 5' LTR | LB T-DNA repeat | cos | repE,n/a,n/a,-0.9,Absence of any specialized packaging/integration element defaults classification to generic transient pDNA.

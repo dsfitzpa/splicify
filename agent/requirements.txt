@@ -1,0 +1,8 @@
+anthropic>=0.40.0
+fastapi
+uvicorn[standard]
+redis
+pydantic>=2
+python-multipart
+httpx
+pytest

@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "enabled": false,
+    "date": "2026-03-12",
+    "tool": "SecureDNA synthclient (source plasmids) + Common Mechanism commec (features)",
+    "commec_bin": "commec",
+    "fast_mode": true,
+    "skip_nt": false,
+    "min_len_bp_note": "threshold is server-determined (hash_spec.min_width_bp from HDB); sequences are never pre-filtered client-side",
+    "allow_on_error": false
+  },
+  "source_plasmids": {
+    "screened_count": 0,
+    "clear_count": 0,
+    "flagged_count": 0,
+    "error_count": 0,
+    "excluded_seqids": [],
+    "error_seqids": []
+  },
+  "anchors": {
+    "screened_count": 0,
+    "clear_count": 0,
+    "flagged_count": 0,
+    "skipped_short_count": 0,
+    "error_count": 0,
+    "uncertain_count": 0,
+    "excluded_seqids": [],
+    "results": []
+  },
+  "motifs": {
+    "screened_count": 0,
+    "clear_count": 0,
+    "flagged_count": 0,
+    "skipped_short_count": 0,
+    "error_count": 0,
+    "uncertain_count": 0,
+    "excluded_seqids": [],
+    "results": []
+  }
+}

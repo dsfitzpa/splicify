@@ -1,0 +1,35 @@
+{
+  "db_version": "1.0.0",
+  "build_date": "2026-03-12",
+  "feature_counts": {
+    "gold": 34,
+    "gold_seed": 3,
+    "silver": 368
+  },
+  "category_counts": {
+    "CDS_NUCLEASE": 1,
+    "CDS_REPORTER": 13,
+    "CDS_RESISTANCE": 23,
+    "GRNA_SCAFFOLD": 5,
+    "INTRON_IME": 40,
+    "MISC_SIGNAL": 4,
+    "ORI_BACTERIAL": 139,
+    "ORI_EUK": 1,
+    "ORI_PHAGE": 3,
+    "POLYA_SIGNAL": 6,
+    "PROMOTER_BACTERIAL": 10,
+    "PROMOTER_POL2": 109,
+    "PROMOTER_POL3": 16,
+    "TERMINATOR_BACTERIAL": 8,
+    "VIRAL_ELEMENT_AAV": 1,
+    "VIRAL_ELEMENT_LENTI": 25,
+    "VIRAL_ELEMENT_OTHER": 1
+  },
+  "biosecurity": {
+    "enabled": false,
+    "anchors_flagged_excluded": 0,
+    "motifs_flagged_excluded": 0,
+    "anchors_errors": 0,
+    "motifs_errors": 0
+  }
+}

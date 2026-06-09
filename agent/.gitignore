@@ -1,0 +1,21 @@
+# Python bytecode + caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Per-turn run outputs (large base64-encoded envelopes from demo runs)
+runs/
+
+# Local backups (e.g. .bak_pre_*)
+*.bak
+*.bak_*
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Environment
+.env
+.env.*

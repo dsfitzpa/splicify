@@ -1,0 +1,59 @@
+# Splicify hierarchical agent (Sonnet 4.6) — packaging metadata.
+#
+# Thin wrapper: depends on `splicify` (the core annotation + cloning package)
+# plus the agent's own runtime deps (Anthropic SDK, Redis, FastAPI).
+#
+# All heavy bioinformatics deps live in splicify-core. The agent layer just
+# adds the LLM client + the session-state backend + the FastAPI shim.
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splicify-agent"
+version = "0.1.0"
+description = "Splicify — hierarchical Sonnet 4.6 agent for plasmid cloning + CRISPR guide design"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10,<3.13"
+authors = [{ name = "dsfitzpa", email = "dsfitzpa@gmail.com" }]
+keywords = ["bioinformatics", "crispr", "agent", "anthropic", "claude"]
+
+dependencies = [
+    # Core package — provides the 21-tool roster's deterministic implementations.
+    "splicify==0.1.0",
+
+    # LLM + agent loop
+    "anthropic>=0.96,<1.0",
+
+    # FastAPI shim (separate uvicorn from backend; agent runs on :8002)
+    "fastapi>=0.135,<1.0",
+    "uvicorn[standard]>=0.42,<1.0",
+    "python-multipart>=0.0.22,<1.0",
+
+    # Session state
+    "redis>=5.0,<6.0",
+
+    # NCBI fetch + external lookups
+    "httpx>=0.28,<1.0",
+
+    # YAML config
+    "pyyaml>=6.0,<7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0,<9.0",
+    "pytest-asyncio>=0.23,<1.0",
+    "ruff>=0.4,<1.0",
+    "mypy>=1.10,<2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/dsfitzpa/splicify"
+Documentation = "https://github.com/dsfitzpa/splicify/blob/main/docs/ARCHITECTURE.md"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agent_v2*"]
+exclude = ["tests*", "runs*"]

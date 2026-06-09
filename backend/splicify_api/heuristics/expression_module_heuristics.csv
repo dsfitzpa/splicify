@@ -1,0 +1,112 @@
+module_type,rule_id,rule_type,features,direction,location_constraint,weight,notes
+Mammalian Pol II expression,MPII-B5a,boundary_5,CMV promoter | CMV IE94 promoter | minimal CMV promoter | mCMV promoter | CMVd1 promoter | CMVd2 promoter | CMVd3 promoter,forward,upstream_of:CDS,0.9,CMV-family promoter alone is the simplest 5' boundary of a mammalian Pol II cassette.
+Mammalian Pol II expression,MPII-B5b,boundary_5_alt,CMV enhancer + chicken β-actin promoter + (chimeric intron | hybrid intron | β-globin intron),forward,order; adjacent; upstream_of:CDS,0.97,"CAG cassette: CMV enhancer → chicken β-actin promoter → rabbit β-globin intron. Extremely strong, widely used in AAV and transgenics. All three elements in this order make the call near-certain."
+Mammalian Pol II expression,MPII-B5c,boundary_5_alt,EF-1α promoter | EF-1α core promoter | mEF-1α promoter,forward,upstream_of:CDS,0.9,EF-1α promoter; the full-length version typically brings EF-1α intron A which further supports the call.
+Mammalian Pol II expression,MPII-B5d,boundary_5_alt,EF-1α promoter + EF-1α intron A,forward,order; upstream_of:CDS,0.97,Full EF-1α promoter with its natural first intron. Stronger than the core promoter alone and resistant to silencing.
+Mammalian Pol II expression,MPII-B5e,boundary_5_alt,PGK promoter | hPGK promoter,forward,upstream_of:CDS,0.88,"Human/mouse PGK promoter; moderate-strength ubiquitous mammalian promoter, common in lenti."
+Mammalian Pol II expression,MPII-B5f,boundary_5_alt,UbC promoter,forward,upstream_of:CDS,0.88,"Human ubiquitin C promoter; ubiquitous expression, resistant to silencing."
+Mammalian Pol II expression,MPII-B5g,boundary_5_alt,SV40 promoter,forward,upstream_of:CDS,0.85,SV40 early promoter; often used for selection markers rather than payload.
+Mammalian Pol II expression,MPII-B5h,boundary_5_alt,SFFV promoter | MSCV promoter | RSV promoter,forward,upstream_of:CDS,0.85,Retroviral LTR-derived promoters; common in lenti/retro for strong hematopoietic expression.
+Mammalian Pol II expression,MPII-B5i,boundary_5_alt,HSV TK promoter | Mini-TK promoter,forward,upstream_of:CDS,0.8,"HSV TK promoter; weak constitutive, often paired with selectable markers."
+Mammalian Pol II expression,MPII-B5j,boundary_5_alt,hSyn promoter | CaMKII promoter,forward,upstream_of:CDS,0.9,Neuron-specific promoters; the neuronal tropism is diagnostic in AAV neuroscience contexts.
+Mammalian Pol II expression,MPII-B5k,boundary_5_alt,TRE3G promoter | TRE3GS promoter | TRE3GV promoter | tight TRE promoter | bidirectional TRE promoter | TRE3G BI promoter,forward,upstream_of:CDS,0.9,Tet-responsive promoters; implies a separate Tet-On/Off transactivator cassette elsewhere.
+Mammalian Pol II expression,MPII-E1,presence,CMV enhancer,forward,upstream_of:promoter; within:600_bp_of:promoter,0.5,CMV enhancer preceding a non-CMV promoter (e.g. in CAG) substantially boosts transcription.
+Mammalian Pol II expression,MPII-E2,presence,chimeric intron | hybrid intron | β-globin intron | SV40 intron | small t intron | large T intron | CMV intron | CMV intron A | EF-1α intron A | mEF-1α intron,forward,between:promoter..CDS,0.45,An intron between the promoter and CDS boosts mammalian expression via mRNA export/stability. Common but not required.
+Mammalian Pol II expression,MPII-E3,presence,Kozak sequence,forward,adjacent_to:CDS_start; within:20_bp_of:CDS,0.4,Kozak consensus surrounding the ATG — ensures efficient translation initiation. Often implicit and unannotated.
+Mammalian Pol II expression,MPII-E4,presence,Xenopus globin 5'-UTR,forward,between:promoter..CDS,0.35,Translation-enhancing 5' UTR; used in some mRNA-like mammalian expression cassettes.
+Mammalian Pol II expression,MPII-I1,presence,WPRE,forward,downstream_of:CDS; upstream_of:polyA,0.55,"WPRE boosts transgene mRNA levels; 3' of CDS, before polyA. Very common in lenti/AAV Pol II cassettes."
+Mammalian Pol II expression,MPII-I2,presence,IRES | IRES2 | FMDV IRES,forward,downstream_of:CDS1; upstream_of:CDS2,0.7,IRES separates two CDSs in a bicistronic cassette — implies a two-ORF module.
+Mammalian Pol II expression,MPII-I3,presence,T2A | P2A | F2A | E2A,forward,between:CDS1..CDS2; in_frame,0.75,2A self-cleaving peptide; produces stoichiometric co-expression of two proteins from a single ORF. In-frame is essential.
+Mammalian Pol II expression,MPII-I4,presence,Igκ leader | IgH signal sequence | IgM signal sequence | IL-2 signal sequence | tPA signal/pro sequence | hGH signal sequence | BiP signal sequence | insulin signal sequence,forward,adjacent_to:CDS_start; in_frame,0.5,Mammalian secretion signal peptide fused N-terminally to the CDS — indicates a secreted-protein module.
+Mammalian Pol II expression,MPII-B3a,boundary_3,bGH poly(A) signal,forward,downstream_of:CDS,0.9,"Bovine growth hormone polyA; strong/compact, the default in AAV and many transient vectors."
+Mammalian Pol II expression,MPII-B3b,boundary_3_alt,SV40 poly(A) signal,forward,downstream_of:CDS,0.9,SV40 late polyA; the other default. Common in selection cassettes and older vectors.
+Mammalian Pol II expression,MPII-B3c,boundary_3_alt,hGH poly(A) signal,forward,downstream_of:CDS,0.88,Human growth hormone polyA.
+Mammalian Pol II expression,MPII-B3d,boundary_3_alt,β-globin poly(A) signal | β-globin poly(A),forward,downstream_of:CDS,0.88,"Rabbit β-globin polyA; strong, often paired with CAG promoter."
+Mammalian Pol II expression,MPII-B3e,boundary_3_alt,HSV TK poly(A) signal,forward,downstream_of:CDS,0.85,HSV TK polyA; typically with TK or PGK promoter in selection cassettes.
+Mammalian Pol II expression,MPII-B3f,boundary_3_alt,PGK poly(A) signal,forward,downstream_of:CDS,0.85,PGK polyA; often paired with PGK promoter in selection cassettes.
+Mammalian Pol II expression,MPII-B3g,boundary_3_alt,EF-1α poly(A) signal,forward,downstream_of:CDS,0.85,EF-1α polyA; paired with EF-1α promoter.
+Mammalian Pol II expression,MPII-B3h,boundary_3_alt,poly(A) signal,forward,downstream_of:CDS,0.7,Generic annotation; lower weight due to ambiguity.
+Mammalian Pol II expression,MPII-O1,order,[5' boundary] -> [optional intron] -> [optional Kozak] -> CDS -> [optional WPRE] -> [3' boundary],forward,canonical,0.95,Canonical mammalian Pol II cassette. Full order match is near-diagnostic.
+Mammalian Pol II expression,MPII-X1,exclusion,T7 promoter + RBS (as primary driver),n/a,upstream_of:CDS,-0.8,"T7+RBS upstream of the CDS indicates a bacterial T7 expression module, not mammalian Pol II."
+Mammalian Pol III (sgRNA/shRNA),MPIII-B5a,boundary_5,U6 promoter | H1 promoter | 7SK promoter | H1-2O2 promoter | TREmod/U6 promoter,forward,upstream_of:guide/shRNA,0.97,Pol III promoters drive short non-coding RNAs. Transcription starts at a defined +1 within the promoter.
+Mammalian Pol III (sgRNA/shRNA),MPIII-P1,presence,gRNA scaffold | tracrRNA | Nm gRNA scaffold | St1 gRNA scaffold | Cj gRNA scaffold | RfxCas13d DR30 | RfxCas13d DR36 | crRNA leader,forward,downstream_of:20_bp_spacer; downstream_of:U6 promoter,0.95,Guide RNA scaffold marks the cassette as CRISPR sgRNA. The 20 nt before it is the spacer.
+Mammalian Pol III (sgRNA/shRNA),MPIII-B3a,boundary_3,pol III terminator (6+ T run) | TTTTTT,forward,downstream_of:scaffold; within:50_bp_of:scaffold,0.9,A run of 6+ T residues terminates Pol III transcription. Rarely annotated as a feature but sequence-detectable.
+Mammalian Pol III (sgRNA/shRNA),MPIII-X1,exclusion,Kozak sequence | IRES | polyA signal,n/a,between:boundaries,-0.7,These are Pol II translation/termination elements; their presence argues against a Pol III cassette.
+Bacterial CDS expression,BAC-B5a,boundary_5,T7 promoter | T7 Φ3.8 promoter,forward,upstream_of:RBS,0.95,T7 promoter — requires T7 RNA polymerase host strain (BL21(DE3) or plasmid-encoded T7 RNAP). Very common in pET vectors.
+Bacterial CDS expression,BAC-B5b,boundary_5_alt,T5 promoter,forward,upstream_of:RBS,0.92,"T5 phage promoter; used in pQE/pTrcHis-style vectors, lac-repressible with lac operators."
+Bacterial CDS expression,BAC-B5c,boundary_5_alt,tac promoter | trc promoter,forward,upstream_of:RBS,0.9,Hybrid trp-lac promoters; IPTG-inducible via lacI.
+Bacterial CDS expression,BAC-B5d,boundary_5_alt,lac promoter | lac UV5 promoter,forward,upstream_of:RBS,0.85,Wild-type lac (weak) or the stronger UV5 variant; IPTG-inducible.
+Bacterial CDS expression,BAC-B5e,boundary_5_alt,araBAD promoter,forward,upstream_of:RBS,0.92,Arabinose-inducible pBAD; tightly titratable. Requires araC regulator elsewhere.
+Bacterial CDS expression,BAC-B5f,boundary_5_alt,rhaB promoter,forward,upstream_of:RBS,0.9,Rhamnose-inducible; similar to araBAD but orthogonal.
+Bacterial CDS expression,BAC-B5g,boundary_5_alt,tet promoter | PLtetO-1 promoter | tetA promoter | tetR/tetA promoters,forward,upstream_of:RBS,0.88,Tet-responsive bacterial promoter; aTc-inducible via TetR.
+Bacterial CDS expression,BAC-B5h,boundary_5_alt,J23119 promoter | J23119(SpeI) promoter,forward,upstream_of:RBS,0.9,Anderson collection constitutive promoters; standard in iGEM / synthetic biology.
+Bacterial CDS expression,BAC-B5i,boundary_5_alt,Pm promoter | trpC promoter,forward,upstream_of:RBS,0.85,Other inducible/constitutive bacterial promoters.
+Bacterial CDS expression,BAC-B5j,boundary_5_alt,SP6 promoter | T3 promoter,forward,upstream_of:RBS,0.7,"Phage promoters used mainly for in-vitro transcription; if RBS follows, also used for expression."
+Bacterial CDS expression,BAC-R1,presence_all,RBS + CDS,forward,RBS within 5-15 bp of CDS start,0.95,Shine-Dalgarno/RBS is mandatory for bacterial translation. Distance to ATG is critical (optimal ~7 bp).
+Bacterial CDS expression,BAC-R2,presence,Shine-Dalgarno sequence,forward,adjacent_to:CDS_start; within:15_bp_of:CDS,0.9,Explicit Shine-Dalgarno annotation; equivalent to RBS.
+Bacterial CDS expression,BAC-I1,presence,lac operator | lac operator (symmetric) | tet operator,forward,downstream_of:promoter; within:60_bp_of:promoter,0.55,Operators embedded in/near the promoter enable inducible control.
+Bacterial CDS expression,BAC-I2,presence,pelB signal sequence | OmpA signal peptide | DsbA | DsbC,forward,adjacent_to:CDS_start; in_frame,0.7,Periplasmic secretion signal; indicates a periplasmic expression module (pET-22b-style).
+Bacterial CDS expression,BAC-I3,presence,T7 tag (gene 10 leader) | minicistron,forward,between:RBS..CDS,0.5,Translation enhancers for T7 expression; help initiation on difficult ORFs.
+Bacterial CDS expression,BAC-I4,presence,MBP | NusA | SUMO | GB1 | HP-thioredoxin | His patch thio | CBD,forward,adjacent_to:CDS_start; in_frame,0.5,Solubility/fusion tags fused to the N-terminus of the CDS.
+Bacterial CDS expression,BAC-I5,presence,Twin-Strep-tag | Strep-Tag II | S-Tag | AviTag™ | HaloTag® | SNAP-tag® | CLIP-tag™ | protein G,forward,in_frame_with:CDS,0.4,Affinity tags; weak standalone evidence but support bacterial expression when combined with RBS/promoter.
+Bacterial CDS expression,BAC-I6,presence,TEV site | HRV 3C site | thrombin site | Factor Xa site | enterokinase site | Genenase™ I site | WELQut site,either,between:tag..CDS,0.3,Protease cleavage sites between fusion tag and CDS; very common in bacterial expression vectors.
+Bacterial CDS expression,BAC-B3a,boundary_3,T7 terminator | T7Te terminator,forward,downstream_of:CDS,0.9,T7 transcription terminator; pairs with T7 promoter.
+Bacterial CDS expression,BAC-B3b,boundary_3_alt,rrnB T1 terminator | rrnB T2 terminator,forward,downstream_of:CDS,0.9,"E. coli rrnB terminators; very common in bacterial expression vectors, often as T1T2 tandem."
+Bacterial CDS expression,BAC-B3c,boundary_3_alt,lambda t0 terminator | λ tL3 terminator,forward,downstream_of:CDS,0.85,Lambda phage terminators.
+Bacterial CDS expression,BAC-B3d,boundary_3_alt,fd terminator | T3Te terminator | tonB terminator | his operon terminator | trpC terminator | bacterial terminator | soxR terminator,forward,downstream_of:CDS,0.8,Other bacterial intrinsic terminators.
+Bacterial CDS expression,BAC-X1,exclusion,Kozak sequence | WPRE | bGH poly(A) signal | SV40 poly(A) signal,n/a,n/a,-0.7,Mammalian-specific elements argue against bacterial expression.
+Insect cell CDS expression,INS-B5a,boundary_5,polyhedrin promoter,forward,upstream_of:CDS,0.97,AcMNPV polyhedrin very late promoter; the default high-expression promoter in Bac-to-Bac and related systems.
+Insect cell CDS expression,INS-B5b,boundary_5_alt,p10 promoter,forward,upstream_of:CDS,0.95,Alternative very late baculoviral promoter; often used for dual-expression alongside polh.
+Insect cell CDS expression,INS-B5c,boundary_5_alt,p6.9 promoter | basic protein promoter,forward,upstream_of:CDS,0.9,Late baculoviral promoters; earlier onset than polh/p10.
+Insect cell CDS expression,INS-B5d,boundary_5_alt,gp64 promoter,forward,upstream_of:CDS,0.85,gp64 envelope promoter; used for surface display fusions.
+Insect cell CDS expression,INS-B5e,boundary_5_alt,IE1 promoter | IE0 promoter,forward,upstream_of:CDS,0.85,Immediate-early baculoviral promoters; active throughout infection.
+Insect cell CDS expression,INS-B5f,boundary_5_alt,OpIE-1 promoter | OpIE-2 promoter,forward,upstream_of:CDS,0.95,"OpMNPV immediate-early promoters; active constitutively in insect cells without infection. Used in pIB/V5-His, pIZ/V5-His for STABLE insect expression."
+Insect cell CDS expression,INS-B5g,boundary_5_alt,Ac5 promoter,forward,upstream_of:CDS,0.9,Drosophila actin 5C promoter; used in S2 cell stable expression (pAc5.1/V5-His).
+Insect cell CDS expression,INS-E1,presence,hr5 enhancer,forward,upstream_of:IE1 promoter; within:2000_bp_of:promoter,0.7,AcMNPV homologous region 5 enhancer; strongly boosts IE1-driven expression. Often paired.
+Insect cell CDS expression,INS-E2,presence,polyhedrin 5' UTR,forward,between:polyhedrin promoter..CDS,0.7,Native polh 5' UTR retained in transfer vectors.
+Insect cell CDS expression,INS-E3,presence,Kozak sequence,forward,adjacent_to:CDS_start; within:20_bp_of:CDS,0.35,Insect cells also use Kozak-like context.
+Insect cell CDS expression,INS-I1,presence,GP64 signal sequence | GP64 mature domain | melittin signal sequence | AKH signal sequence | BiP signal sequence | α-amylase signal sequence | insulin signal sequence,forward,adjacent_to:CDS_start; in_frame,0.65,Insect-compatible secretion signals — diagnostic for secreted-protein modules in insect systems.
+Insect cell CDS expression,INS-I2,presence,TEV site | HRV 3C site | thrombin site | Factor Xa site | WELQut site,either,in_frame_with:CDS,0.25,Protease sites for tag removal; supporting.
+Insect cell CDS expression,INS-I3,presence,capTEV™ | MBP | SUMO | His tag | Twin-Strep-tag | HaloTag® | V5 tag | HA-L | HA-R,forward,in_frame_with:CDS,0.35,Fusion/affinity tags; weak support.
+Insect cell CDS expression,INS-B3a,boundary_3,SV40 poly(A) signal,forward,downstream_of:CDS,0.85,SV40 polyA is the most common 3' boundary in baculoviral transfer vectors because insect cells process it efficiently.
+Insect cell CDS expression,INS-B3b,boundary_3_alt,OpIE-2 poly(A) signal,forward,downstream_of:CDS,0.95,"OpMNPV IE-2 polyA — diagnostic for stable insect cell vectors (pIB, pIZ) paired with OpIE promoters."
+Insect cell CDS expression,INS-B3c,boundary_3_alt,hsp70 poly(A),forward,downstream_of:CDS,0.9,Drosophila hsp70 polyA; typically paired with Ac5 promoter for S2 cells.
+Insect cell CDS expression,INS-B3d,boundary_3_alt,polyhedrin 3' UTR,forward,downstream_of:CDS,0.8,Native polh 3' UTR retained in some transfer vectors.
+Insect cell CDS expression,INS-B3e,boundary_3_alt,HSV TK poly(A) signal | bGH poly(A) signal,forward,downstream_of:CDS,0.6,Mammalian polyA signals also work in insect cells and are sometimes used; weaker evidence for insect-specific module.
+Insect cell CDS expression,INS-O1,order,[polh or p10 or OpIE promoter] -> [optional signal peptide] -> CDS -> [polyA],forward,canonical,0.9,Canonical insect expression cassette.
+Plant T-DNA expression,PLT-B5a,boundary_5,CaMV 35S promoter | CaMV 35S promoter (enhanced) | minimal CaMV 35S promoter,forward,upstream_of:CDS; between:LB..RB,0.95,Cauliflower mosaic virus 35S promoter; the default constitutive promoter for dicots.
+Plant T-DNA expression,PLT-B5b,boundary_5_alt,Ubi promoter | UbC promoter,forward,upstream_of:CDS; between:LB..RB,0.9,Maize ubiquitin promoter; the default constitutive promoter for monocots.
+Plant T-DNA expression,PLT-B5c,boundary_5_alt,Act1 promoter,forward,upstream_of:CDS; between:LB..RB,0.9,Rice actin 1 promoter; alternative monocot constitutive promoter.
+Plant T-DNA expression,PLT-B5d,boundary_5_alt,NOS promoter | MAS promoter,forward,upstream_of:CDS; between:LB..RB,0.85,"Nopaline synthase / mannopine synthase promoters; weaker constitutive, commonly drive selectable markers rather than payload."
+Plant T-DNA expression,PLT-B5e,boundary_5_alt,35SPPDK promoter,forward,upstream_of:CDS; between:LB..RB,0.9,Hybrid 35S/pyruvate orthophosphate dikinase promoter.
+Plant T-DNA expression,PLT-B5f,boundary_5_alt,AtU6 promoter | AtU6-1 promoter | OsU3 promoter,forward,upstream_of:guide/shRNA; between:LB..RB,0.95,Plant Pol III promoters driving sgRNAs for CRISPR in planta.
+Plant T-DNA expression,PLT-E1,presence,TMV Ω,forward,between:promoter..CDS,0.55,"TMV omega 5' leader; translation enhancer, widely used in plant expression."
+Plant T-DNA expression,PLT-E2,presence,AtADH 5'-UTR | OsADH 5'-UTR | BYDV 5' UTR,forward,between:promoter..CDS,0.55,Plant translation-enhancing 5' UTRs.
+Plant T-DNA expression,PLT-E3,presence,BYDV 3' TE,forward,downstream_of:CDS; upstream_of:terminator,0.6,Barley yellow dwarf virus 3' translation element; works with the 5' UTR for cap-independent translation.
+Plant T-DNA expression,PLT-E4,presence,CaMV 35S promoter (enhanced) + TMV Ω,forward,order; upstream_of:CDS,0.85,Enhanced 35S with TMV Ω leader — high-expression plant module commonly used in transient agroinfiltration.
+Plant T-DNA expression,PLT-I1,presence,Kozak sequence,forward,adjacent_to:CDS_start,0.3,Plants prefer an A at -3; Kozak-like context applies.
+Plant T-DNA expression,PLT-I2,presence,chsA intron | IV2 intron | PDK intron | cat1 intron,forward,between:promoter..CDS | within:CDS,0.4,"Plant introns can enhance expression (intron-mediated enhancement, IME)."
+Plant T-DNA expression,PLT-B3a,boundary_3,NOS terminator,forward,downstream_of:CDS; between:LB..RB,0.95,"Nopaline synthase terminator; the default plant polyA signal, paired with almost any plant promoter."
+Plant T-DNA expression,PLT-B3b,boundary_3_alt,CaMV poly(A) signal,forward,downstream_of:CDS; between:LB..RB,0.9,CaMV 35S polyA; often paired with the 35S promoter.
+Plant T-DNA expression,PLT-B3c,boundary_3_alt,OCS terminator,forward,downstream_of:CDS; between:LB..RB,0.88,"Octopine synthase terminator; orthogonal to NOS, useful in stacked cassettes to avoid repeat-induced silencing."
+Plant T-DNA expression,PLT-B3d,boundary_3_alt,hsp70 poly(A),forward,downstream_of:CDS; between:LB..RB,0.8,Heat shock 70 polyA; used in some plant vectors.
+Plant T-DNA expression,PLT-L1,presence_all,LB T-DNA repeat + RB T-DNA repeat,either,flanks:module,0.9,Expression module must lie between the T-DNA borders to be stably transferred to the plant genome.
+Yeast CDS expression,YST-B5a,boundary_5,"GAL1 promoter | GAL10 promoter | GAL1,10 promoter",forward,upstream_of:CDS,0.95,"Galactose-inducible; the classic inducible S. cerevisiae promoter. GAL1,10 is bidirectional."
+Yeast CDS expression,YST-B5b,boundary_5_alt,ADH1 promoter | adh1 promoter | ADH2 promoter,forward,upstream_of:CDS,0.9,ADH1 strong constitutive / ADH2 glucose-repressible.
+Yeast CDS expression,YST-B5c,boundary_5_alt,TEF promoter | TEF1 promoter,forward,upstream_of:CDS,0.9,Translation elongation factor 1; strong constitutive.
+Yeast CDS expression,YST-B5d,boundary_5_alt,GAP promoter | gpdA promoter,forward,upstream_of:CDS,0.9,Glyceraldehyde-3-phosphate dehydrogenase; strong constitutive.
+Yeast CDS expression,YST-B5e,boundary_5_alt,AOX1 promoter,forward,upstream_of:CDS,0.97,Alcohol oxidase 1 — diagnostic for Pichia pastoris methanol-inducible expression.
+Yeast CDS expression,YST-B5f,boundary_5_alt,CUP1 promoter | MT promoter,forward,upstream_of:CDS,0.88,Copper-inducible metallothionein promoter.
+Yeast CDS expression,YST-B5g,boundary_5_alt,nmt1 promoter | nmt1 P41 promoter | nmt1 P81 promoter,forward,upstream_of:CDS,0.95,S. pombe thiamine-repressible promoters (full/attenuated strengths).
+Yeast CDS expression,YST-B5h,boundary_5_alt,MET17 promoter | FLD1 promoter,forward,upstream_of:CDS,0.85,Other inducible yeast promoters.
+Yeast CDS expression,YST-I1,presence,α-factor secretion signal,forward,adjacent_to:CDS_start; in_frame,0.9,S. cerevisiae α-factor prepro-leader; diagnostic for secreted yeast expression (very common in Pichia).
+Yeast CDS expression,YST-I2,presence,Kozak sequence,forward,adjacent_to:CDS_start,0.2,Yeast Kozak context is loose; weak marker.
+Yeast CDS expression,YST-B3a,boundary_3,CYC1 terminator,forward,downstream_of:CDS,0.95,Cytochrome c terminator; the default S. cerevisiae terminator for heterologous expression.
+Yeast CDS expression,YST-B3b,boundary_3_alt,ADH1 terminator | ADH2 terminator,forward,downstream_of:CDS,0.9,ADH terminators; often paired with corresponding promoters.
+Yeast CDS expression,YST-B3c,boundary_3_alt,AOX1 terminator,forward,downstream_of:CDS,0.95,Pichia pastoris AOX1 terminator; diagnostic with AOX1 promoter.
+Yeast CDS expression,YST-B3d,boundary_3_alt,PGK1 terminator,forward,downstream_of:CDS,0.88,PGK1 terminator.
+IVT mRNA (LNP payload),IVT-B5,boundary_5,T7 promoter,forward,upstream_of:5'UTR,0.85,T7 promoter drives in vitro transcription of mRNA vaccine/therapeutic templates. Weaker than bacterial use because T7 alone is ambiguous.
+IVT mRNA (LNP payload),IVT-I1,presence,Xenopus globin 5'-UTR | β-globin 5' UTR,forward,between:T7 promoter..CDS,0.8,Human/Xenopus β-globin 5' UTR is the standard mRNA-vaccine 5' UTR.
+IVT mRNA (LNP payload),IVT-I2,presence,β-globin poly(A) signal | β-globin poly(A),forward,downstream_of:CDS; upstream_of:polyA tract,0.7,β-globin 3' UTR preceding the encoded polyA tail.
+IVT mRNA (LNP payload),IVT-B3,boundary_3,encoded polyA tract (>=80 A) | polyA tail,forward,downstream_of:3'UTR,0.9,Template-encoded polyA of ~80–120 A residues; terminates the IVT run after linearization.
+IVT mRNA (LNP payload),IVT-O1,order,T7 promoter -> 5' UTR -> Kozak -> CDS -> 3' UTR -> polyA tract,forward,canonical,0.9,Canonical IVT-mRNA layout — diagnostic when all elements in order.
